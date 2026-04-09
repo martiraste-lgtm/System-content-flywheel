@@ -39,9 +39,69 @@ references/
 
 ---
 
-## Pattern cross-autore (da compilare nel tempo)
+## Pattern cross-autore
 
-Questa sezione raccoglierà i pattern che compaiono in più autori diversi.
-Quando lo stesso pattern appare in 3+ autori → è un segnale forte.
+Aggiornato: aprile 2026. Basato su analisi di tutti e 4 gli autori.
+Quando lo stesso pattern appare in 3+ autori → segnale forte (evidenziato con ★).
 
-*(vuoto — da popolare)*
+---
+
+### ★ Reframe diagnostico — "Non hai problema X, hai problema Y"
+**Presente in**: Estner (pattern dominante), Wester (top performer), Herubel (variante con parentesi)
+**Formula**: riga 1 afferma la falsa diagnosi comune → riga 2 ribalta
+**Adattabilità**: alta — non dipende dalla lingua, non richiede credenziali specifiche
+
+---
+
+### ★ Dialogo founder / cliente con punto di svolta
+**Presente in**: Herubel (firma distintiva, dialogo neutro), Wester (dialogo con reazione emotiva), Estner (variante con quote dirette)
+**Formula**: voce del cliente → risposta/reazione del consulente
+**Differenza chiave**: Wester aggiunge la reazione emotiva ("??!!") — più autentico e immediato
+**Adattabilità**: alta — ho materiale reale dalla consulenza
+
+---
+
+### ★ Chiusura con domanda aperta di engagement
+**Presente in**: Maja Voje, Herubel, Wester, Estner
+**Formula**: ultima riga del post = domanda aperta al lettore ("What's your take?", "What's missing?")
+**Nota**: nessuno dei 4 chiude con CTA diretta come standard — è sempre domanda o frase manifesto
+**Adattabilità**: immediata — da adottare sistematicamente
+
+---
+
+### ★ Lista già visibile nell'hook (primo punto esposto prima del "leggi di più")
+**Presente in**: Herubel (sistematico), Maja Voje (frequente), Estner (frequente)
+**Formula**: "These 5 principles: 1. [primo punto già scritto per intero]..."
+**Effetto**: il lettore vede il valore del contenuto prima di cliccare
+**Adattabilità**: alta
+
+---
+
+### Matematica semplice come proof (senza lista, senza framework)
+**Presente in**: Estner (top post non-giveaway), Wester (post ICP+ACV)
+**Formula**: affermazione → calcolo semplice → "stessa cosa, difficoltà completamente diversa"
+**Nota**: solo 2 autori, ma entrambi con top performance — vale come segnale
+**Adattabilità**: alta — ho numeri reali (CAC, ARR, mercato italiano)
+
+---
+
+### Storia personale breve + quote shock o milestone
+**Presente in**: Herubel ("9 years + domanda assurda"), Wester ("content sucked 2 years", "2006→2026 newsletter"), Maja Voje (achievement + sistema)
+**Formula**: credenziale temporale o milestone → aneddoto specifico che sorprende
+**Adattabilità**: media — richiede aneddoti reali da consulenza, che ho
+
+---
+
+### Contrasto temporale / "era statement"
+**Presente in**: Maja Voje ("2025 was the year of Prompt. 2026 is the year of Context."), Herubel ("B2B playbook changed in 3 years"), Estner ("In 2026...")
+**Formula**: prima / dopo, o "X era Y. Ora è Z."
+**Adattabilità**: alta — funziona su qualsiasi tema che ha avuto un'evoluzione recente
+
+---
+
+## Cosa NON è cross-autore (specifico di 1 solo)
+
+- **Giveaway "commenta per ricevere"**: molto diffuso tra Estner e Wester — ma è tattica, non pattern editoriale
+- **Ironia come apertura**: solo Wester — ma è il più vicino al mio registro
+- **"Zodiac / paradosso assurdo"**: solo Wester — interessante ma rischiosa come formula
+- **Caroselli con cover testuale forte**: solo Herubel — già in linkedin-carousel-creator/references/

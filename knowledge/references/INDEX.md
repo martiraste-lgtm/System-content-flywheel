@@ -11,7 +11,10 @@ Aggiungi qui gli autori che vuoi studiare, con note sul perché ti interessano.
 
 | Autore | Profilo LinkedIn | Perché lo studi | Analizzato |
 |--------|-----------------|-----------------|------------|
-| — | — | — | No |
+| Maja Voje | linkedin.com/in/majavoje | GTM strategy, AI tools, startup early stage — segmento simile al mio | Sì (apr 2026) |
+| Pierre Herubel | linkedin.com/in/pierreherubel | Content strategy B2B, caroselli — già in carousel skill, qui analizzo text post | Da fare |
+| Alex Estner | linkedin.com/in/alexestner | GTM strategy execution — nessun dato esistente | Da fare |
+| Douwe Wester | linkedin.com/in/douwewester | GTM, post testuali — placeholder nel carousel skill | Da fare |
 
 ---
 

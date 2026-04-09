@@ -12,9 +12,10 @@ Aggiungi qui gli autori che vuoi studiare, con note sul perché ti interessano.
 | Autore | Profilo LinkedIn | Perché lo studi | Analizzato |
 |--------|-----------------|-----------------|------------|
 | Maja Voje | linkedin.com/in/majavoje | GTM strategy, AI tools, startup early stage — segmento simile al mio | Sì (apr 2026) |
-| Pierre Herubel | linkedin.com/in/pierreherubel | Content strategy B2B, caroselli — già in carousel skill, qui analizzo text post | Da fare |
-| Alex Estner | linkedin.com/in/alexestner | GTM strategy execution — nessun dato esistente | Da fare |
-| Douwe Wester | linkedin.com/in/douwewester | GTM, post testuali — placeholder nel carousel skill | Da fare |
+| Pierre Herubel | linkedin.com/in/pierre-herubel-540b3949 | Content strategy B2B, caroselli — già in carousel skill, qui post testuali | Sì (apr 2026) |
+| Alex Estner | linkedin.com/in/alexander-estner | GTM strategy execution — nessun dato esistente | Sì (apr 2026) |
+| Douwe Wester | linkedin.com/in/douwewester | GTM, post testuali — placeholder nel carousel skill | Sì (apr 2026) |
+| Anthony Pierri | linkedin.com/in/anthonypierri | Positioning B2B + homepage — già in saas-homepage-analyzer skill, qui pattern LinkedIn | Sì (apr 2026) |
 
 ---
 
@@ -41,7 +42,7 @@ references/
 
 ## Pattern cross-autore
 
-Aggiornato: aprile 2026. Basato su analisi di tutti e 4 gli autori.
+Aggiornato: aprile 2026. Basato su analisi di tutti e 5 gli autori.
 Quando lo stesso pattern appare in 3+ autori → segnale forte (evidenziato con ★).
 
 ---
@@ -99,9 +100,26 @@ Quando lo stesso pattern appare in 3+ autori → segnale forte (evidenziato con 
 
 ---
 
+### ★ Credenziale quantitativa + errore sistematico
+**Presente in**: Pierri ("500 homepages / 500 positioning projects"), Estner ("30+ founders"), Herubel ("9 years a marketer"), Wester ("30+ GTM Assessment Sprints")
+**Formula**: "[numero alto] di [progetti/anni/clienti]. [Percentuale o affermazione] sbaglia/non capisce [cosa]."
+**Top performer**: "I've written almost 500 homepages. Let me tell you..." → 959 reactions (Pierri)
+**Adattabilità**: alta — ho anni di consulenza e decine di aziende. Da quantificare.
+
+---
+
+### Sarcasmo/ironia come registro editoriale stabile
+**Presente in**: Pierri (sistematico, ~30% del feed), Wester (episodico), Maja Voje (metafora paradossale)
+**Nota**: il sarcasmo puro sull'AI hype è quasi esclusivo di Pierri. Wester lo usa più come tono che come struttura
+**Condizione**: funziona solo con audience che ti conosce e capisce il registro. Non per i primi post
+**Adattabilità**: media — da introdurre gradualmente dopo aver costruito credibilità
+
+---
+
 ## Cosa NON è cross-autore (specifico di 1 solo)
 
-- **Giveaway "commenta per ricevere"**: molto diffuso tra Estner e Wester — ma è tattica, non pattern editoriale
-- **Ironia come apertura**: solo Wester — ma è il più vicino al mio registro
-- **"Zodiac / paradosso assurdo"**: solo Wester — interessante ma rischiosa come formula
+- **Giveaway "commenta per ricevere"**: diffuso tra Estner e Wester — tattica, non pattern editoriale
+- **Sarcasmo esteso** (post interamente satirici): quasi esclusivo Pierri
+- **"Zodiac / paradosso assurdo"**: solo Wester
 - **Caroselli con cover testuale forte**: solo Herubel — già in linkedin-carousel-creator/references/
+- **Domanda filosofica binaria** ("What comes first: X or Y?"): solo Pierri — genera alto ratio commenti/reactions

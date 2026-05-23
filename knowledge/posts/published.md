@@ -38,14 +38,14 @@ Ogni entry contiene:
 
 **Carosello associato**: `caroselli/Carosello-Moltiplicatori-GTM.pdf`
 
-**Performance** *(da aggiornare dopo 7gg)*:
-- Impressions a 7gg: _
-- Reactions: _
-- Commenti: _
+**Performance** *(rilevato a 1 mese dalla pubblicazione — 2026-05-23)*:
+- Impressions: 632
+- Reactions: 12
+- Commenti: 10
 - Click link (primo commento): _
 - Lead inbound attribuibili: _
 
-**Note post-pubblicazione**: *(da compilare)*
+**Note post-pubblicazione**: Post con la tesi più forte del mese. 10 commenti su 632 impressioni = tasso commenti alto. L'hook diretto con nomi dei tool (Clay, Apollo) ha interpellato l'ICP in modo preciso.
 
 ---
 
@@ -56,15 +56,12 @@ Ogni entry contiene:
 **Tema**: GTM framework — authority building
 **Carosello**: `caroselli/GTM-Power-System-Carousel.pdf`
 
-**Hook (versione pubblicata — Hook 1 consigliato)**:
-> Il 90% dei founder costruisce il GTM al contrario.
->
-> Partono dalla tattica.
-> "Facciamo cold email."
-> "Proviamo le ads."
-> "Mettiamo su LinkedIn."
->
-> Poi si chiedono perché non funziona.
+**Hook (versione pubblicata — hook diverso dal pianificato)**:
+> Claude Code può costruire - gestire - aggiornare il tuo Go to Market?
+> SI
+> ma proprio per questo le FONDAMENTA del Product Marketing devono essere perfette
+
+*(Nota: l'hook pianificato nel file era "Il 90% dei founder costruisce il GTM al contrario." — la versione pubblicata ha cambiato angolo verso Claude Code + GTM. Il carosello GTM Power System è allegato come documento LinkedIn con CTA "Controlla le tue fondamenta del Go to Market leggendo il Carosello qui sotto".)*
 
 **Pattern usato**:
 - Tipo hook: **Contrarian personale + "costruisce al contrario"** — crea dissonanza cognitiva immediata
@@ -76,14 +73,14 @@ Ogni entry contiene:
 - H01 (reframe diagnostico — variante: errore costruzione GTM)
 - H06 (chiusura con domanda → qui sostituita da CTA — eccezione)
 
-**Performance** *(da aggiornare dopo 7gg)*:
-- Impressions a 7gg: _
-- Reactions: _
-- Commenti: _
+**Performance** *(rilevato a 1 mese dalla pubblicazione — 2026-05-23)*:
+- Impressions: 304
+- Reactions: 12
+- Commenti: 6
 - Click link Substack: _
 - Lead inbound attribuibili: _
 
-**Note post-pubblicazione**: *(da compilare)*
+**Note post-pubblicazione**: Performance inferiore al Clay/Apollo (304 vs 632 imp). L'hook "Claude Code + GTM" è meno diretto dell'hook con nomi di tool concreti. Il carosello era allegato come documento LinkedIn, non come post standalone — potrebbe aver ridotto l'apertura. Rapporto reactions/impressioni simile.
 
 ---
 

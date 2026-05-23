@@ -63,6 +63,30 @@ Le skill stanno in `~/.claude/skills/`. Leggine il SKILL.md prima di invocarle.
 
 ---
 
+## Convenzione di output — dove salvare i deliverable
+
+Ogni deliverable va salvato nella cartella dedicata al suo tipo. Non mischiarli nella root.
+
+| Tipo di output | Cartella di destinazione | Estensioni tipiche |
+|----------------|--------------------------|---------------------|
+| Caroselli LinkedIn | `caroselli/` | `.pptx`, `.pdf` |
+| Infografiche | `infografiche/` | `.html`, `.jsx`, `.png`, `.pdf` |
+| Post LinkedIn (idee, bozze, varianti) | `post-idee/` | `.md` |
+| Post LinkedIn (già pubblicati) | `post-pubblicati/` | `.md` |
+| Articoli Substack (bozze) | `articoli/` (crea se manca) | `.md` |
+
+**Workflow post LinkedIn:**
+1. Nascita di un'idea → file in `post-idee/` (anche solo un titolo o un hook)
+2. Iterazione, draft, hook, varianti → stesso file o sottocartella in `post-idee/[topic]/`
+3. Quando pubblicato su LinkedIn → spostare il file in `post-pubblicati/` e (opzionale) registrare performance in `knowledge/posts/published.md`
+
+Convenzione nome file: `[Topic-Principale]-[Angle-o-Data].ext`
+Esempio: `Carosello-Moltiplicatori-GTM.pdf`, `Post-ICP-vs-ECP-2026-04.md`
+
+Se il deliverable è multi-file (es. carosello = .pptx + .pdf), tienili insieme nella stessa cartella. Se è una serie di output correlati, crea una sottocartella dedicata.
+
+---
+
 ## Learning Mode — Istruzioni per l'aggiornamento automatico
 
 Quando mi chiedi di analizzare post di un autore di riferimento:

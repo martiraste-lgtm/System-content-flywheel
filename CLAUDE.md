@@ -58,6 +58,7 @@ La knowledge del sistema si aggiunge sopra, non sostituisce.
 | Crea carosello LinkedIn | `linkedin-carousel-creator` | `knowledge/platforms/linkedin/` |
 | Analizza autore di riferimento | nessuna skill, usa Chrome MCP | `knowledge/references/` |
 | Feedback su un mio pezzo | `newsletter-writer` Modalità 3 | `knowledge/posts/` + `knowledge/hypotheses/active.md` |
+| Scrivi Company Teardown | `company-teardown` | `knowledge/companies/` (se esiste) |
 
 Le skill stanno in `~/.claude/skills/`. Leggine il SKILL.md prima di invocarle.
 
@@ -74,6 +75,7 @@ Ogni deliverable va salvato nella cartella dedicata al suo tipo. Non mischiarli 
 | Post LinkedIn (idee, bozze, varianti) | `post-idee/` | `.md` |
 | Post LinkedIn (già pubblicati) | `post-pubblicati/` | `.md` |
 | Articoli Substack (bozze) | `articoli/` (crea se manca) | `.md` |
+| Company Teardown (rubrica newsletter) | `articoli/` | `.md` |
 
 **Workflow post LinkedIn:**
 1. Nascita di un'idea → file in `post-idee/` (anche solo un titolo o un hook)

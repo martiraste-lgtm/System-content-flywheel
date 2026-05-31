@@ -51,13 +51,18 @@ Il sistema accumula conoscenza ogni volta che lavoro. Non parte da zero.
 Quando lavoro su contenuti editoriali, usa sempre le skill dedicate come base.
 La knowledge del sistema si aggiunge sopra, non sostituisce.
 
+**Context scoping (regola):** carica SOLO i file elencati per il task, non tutta la knowledge.
+La `foundation/` è la sostanza (leggila sempre prima di scrivere); il resto è forma e si aggiunge mirato.
+Caricare tutto porta a context pollution — l'AI infila riferimenti che il pezzo non autorizza.
+
 | Task | Skill da invocare | Knowledge aggiuntiva da leggere |
 |------|-------------------|---------------------------------|
-| Scrivi post LinkedIn | `linkedin-viral-post-writer` | `knowledge/platforms/linkedin/` + `knowledge/references/` |
-| Scrivi articolo Substack | `newsletter-writer` | `knowledge/platforms/substack/` + `knowledge/references/` |
-| Crea carosello LinkedIn | `linkedin-carousel-creator` | `knowledge/platforms/linkedin/` |
+| Scrivi post LinkedIn | `linkedin-viral-post-writer` | `knowledge/foundation/voice-guide.md` + `pov.md` + `audience.md` + `knowledge/client-intelligence/` + `knowledge/references/` |
+| Scrivi articolo Substack | `newsletter-writer` | `knowledge/foundation/` (positioning, pov, voice) + `knowledge/client-intelligence/` + `knowledge/proof-library/` + `knowledge/platforms/substack/` |
+| Crea carosello LinkedIn | `linkedin-carousel-creator` | `knowledge/foundation/voice-guide.md` + `pov.md` |
 | Analizza autore di riferimento | nessuna skill, usa Chrome MCP | `knowledge/references/` |
-| Feedback su un mio pezzo | `newsletter-writer` Modalità 3 | `knowledge/posts/` + `knowledge/hypotheses/active.md` |
+| Feedback su un mio pezzo | `newsletter-writer` Modalità 3 | `knowledge/foundation/pov.md` + `knowledge/posts/` + `knowledge/hypotheses/active.md` |
+| Estrai insight da un engagement | nessuna skill (workflow in INDEX) | `knowledge/client-intelligence/INDEX.md` |
 | Scrivi Company Teardown | `company-teardown` | `knowledge/companies/` (se esiste) |
 
 Le skill stanno in `~/.claude/skills/`. Leggine il SKILL.md prima di invocarle.
@@ -112,6 +117,25 @@ Quando pubblico un pezzo e mi chiedi di registrarlo:
 3. Identifica: cosa ha funzionato, quale pattern era nel pezzo
 4. Aggiorna `knowledge/hypotheses/active.md` con l'evidenza
 5. Commit e push — messaggio: `chore: add post — [titolo breve]`
+
+Quando ti do gli appunti di un engagement e dico "estrai gli insight":
+
+1. **Anonimizza all'ingresso**: rimuovi nome persona e brand; tieni ruolo, settore, scala. (Repo privato, ma l'anonimizzazione si fa comunque.)
+2. Crea/aggiorna l'entry in `knowledge/client-intelligence/insights/[slug].md` col template in `client-intelligence/INDEX.md`
+3. Proponi 0-N voci per `knowledge/client-intelligence/lexicon.md` (founder-speak vs vendor-speak)
+4. Se conferma/contraddice un pattern → aggiorna `client-intelligence/patterns.md`; se tocca un'ipotesi → `hypotheses/active.md` (evidenza ora da fonte MIA, non dagli autori)
+5. Se c'è un risultato misurabile → riga in `knowledge/proof-library/results.md`
+6. Commit e push — messaggio: `chore: add client intelligence — [slug anonimo]`
+
+Quando edito una bozza e dico "registra i miei edit":
+
+1. Calcola il diff git tra versione generata e versione editata
+2. Estrai i pattern di correzione ricorrenti → `knowledge/craft/edit-patterns.md`
+3. Se un pattern di edit si ripete 3+ volte → promuovilo a `foundation/voice-guide.md` (voce) o `craft/writing_techniques.md` (craft)
+
+**Principi di sistema:**
+- **Intelligence → multiple outputs**: una sola estrazione da engagement alimenta articolo + post + carosello E affina il positioning a monte (`foundation/`). Non è un problema di produzione, è distribuzione di intelligence. La review che promuove i pattern in `foundation/` si fa ogni 3-6 mesi: l'evidenza fa emergere, Stefano decide.
+- **Human gate all'outline**: per gli articoli Substack, la revisione umana sta al livello strategico (outline/angle), non al copy-editing. Approvato l'outline, il writer scrive senza re-improvvisare la sostanza.
 
 **Non chiedere autorizzazione per aggiornare i file `knowledge/`.
 Chiedi solo se devi modificare questo CLAUDE.md o i file nelle cartelle `platforms/`.**

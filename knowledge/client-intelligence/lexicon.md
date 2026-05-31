@@ -15,7 +15,12 @@ Ultima revisione: 2026-05.
 |-----------------------|-------------------------------------|------|
 | "Clay", "Apollo", "fare outbound" ⟦seed⟧ | "outbound stack", "sales engagement platform" | Il founder nomina il tool concreto, non la categoria. Nominare i tool reali interpella l'ICP (vedi post Clay/Apollo 2026-04). |
 | "non vendo abbastanza" / "la crescita è ferma" ⟦seed⟧ | "challenge di pipeline / funnel optimization" | Il founder descrive il sintomo in modo grezzo, non con il gergo da funnel. |
-| ⟦DA POPOLARE da sessioni reali⟧ | | |
+| "le vendite passano tutte da me" / "dipende troppo da me" | "founder-led sales bottleneck", "scalabilità del go-to-market" | Il founder parla in prima persona del collo di bottiglia. (Fonte: energy-mgmt-b2b-startup-01) |
+| "strategia da PowerPoint" | "deliverable strategico", "strategic framework" | **Termine deviante d'oro**: come il buyer scettico chiama la consulenza senza impatto. Usabile come hook/nemico. (Fonte: energy-mgmt-b2b-startup-01) |
+| "trasmettere solidità / standing" / "fare bella figura" | "brand perception", "corporate credibility" | Il founder descrive l'effetto desiderato in modo concreto, non con il gergo di brand. |
+| "non voglio sembrare una piccola [grande player]" | "differenziazione competitiva dagli incumbent" | Il modo reale in cui un challenger esprime la paura di imitare i grandi. |
+| "con cosa ci paragona davvero il cliente?" | "competitive set / analisi competitiva" | Il vero confronto spesso è Excel/Power BI/soluzioni interne, non i competitor ovvi. Riframing potente. |
+| "lose fast" | "fail fast / rapid iteration" | Variante usata dal buyer stesso — segnale di mentalità sperimentale. |
 
 ---
 

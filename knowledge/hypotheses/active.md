@@ -34,8 +34,10 @@ Regole:
 - Wester: "It wasn't a copywriting problem. It was a positioning problem." → 185 reactions
 - Estner: "Most early-stage startups don't have a GTM execution problem. They have a positioning problem." — pattern più usato tra i suoi migliori post
 - Herubel: "Marketing 'strategy' and 'tactics' are different" → 1319 reactions
+**Evidenza dal campo (engagement, NON performance LinkedIn)**:
+- energy-mgmt-b2b-startup-01: il founder formula il bisogno come "vendere di più / meno dipendente da me"; la diagnosi reale che ho portato è a monte (coerenza business model ↔ GTM + positioning). Conferma che il reframe è *vero* in un contesto di vendita reale → materiale concreto per testarlo come hook sulla mia audience.
 **Evidenze contro**: 
-**Status**: ipotesi forte — da testare sulla mia audience italiana
+**Status**: ipotesi forte — da testare sulla mia audience italiana. Ora ho un caso cliente mio da cui costruire il post (non più solo quote di Estner/Wester).
 
 ---
 

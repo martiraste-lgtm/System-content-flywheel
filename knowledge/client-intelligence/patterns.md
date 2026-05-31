@@ -25,12 +25,20 @@ Ultima revisione: 2026-05 (struttura creata, da popolare con gli engagement real
 
 ## Pattern attivi
 
-*(nessuno ancora — si popola dal primo engagement estratto)*
+### P1 — Il founder chiede "vendere di più / meno dipendente da me", la diagnosi reale è a monte (business model + positioning)
+**Visto in:** energy-mgmt-b2b-startup-01 (1)
+**Pattern:** il founder formula il bisogno come scalabilità commerciale / autonomia dalla sua persona; la diagnosi del consulente sposta a monte su coerenza modello di business ↔ GTM e su positioning ("con cosa ti paragona davvero il cliente").
+**Implicazione upstream:** rafforza POV-2 e POV-3 in `../foundation/pov.md`; alimenta il candidato **POV-4** (coerenza business-model ↔ GTM).
+**Status:** osservazione (1) — serve evidenza da ≥3 engagement per diventare segnale.
 
-### Esempio di come si presenterà (⟦placeholder⟧)
+### P2 — Lo scetticismo verso i consulenti è un'obiezione strutturale ("strategia da PowerPoint")
+**Visto in:** energy-mgmt-b2b-startup-01 (1)
+**Pattern:** il buyer (founder o advisor) teme deliverable strategici ben fatti ma senza impatto; chiede KPI, risultati attesi, finestre temporali brevi ("lose fast") e partnership operativa invece di brief→report.
+**Implicazione upstream:** è un pain ricorrente da inserire in `../foundation/audience.md` (obiezione-chiave) e una potenziale leva di positioning personale ("non faccio strategia da PowerPoint").
+**Status:** osservazione (1).
 
-### P1 — I founder pre-PMF chiamano "problema di GTM" ciò che è un problema di positioning
-**Visto in:** ⟦da popolare⟧
-**Pattern:** il founder arriva chiedendo aiuto su canali/tattiche; la diagnosi reale è a monte sul positioning.
-**Implicazione upstream:** rafforza POV-3 in `../foundation/pov.md`; rafforza l'obiezione-chiave in `../foundation/audience.md`.
-**Status:** ⟦osservazione — serve evidenza da ≥3 engagement reali, non dai quote degli autori di riferimento⟧
+### P3 — Il challenger teme sia di imitare i grandi sia di sembrare eccentrico
+**Visto in:** energy-mgmt-b2b-startup-01 (1)
+**Pattern:** il cliente rifiuta di "sembrare una piccola Enel/Siemens/Schneider" ma teme anche di risultare poco credibile. La differenziazione deve nascere da asset reali (competenza, integrazione, verticalità, velocità, affidabilità), non da creatività cosmetica.
+**Implicazione upstream:** tema di contenuto trasversale ai clienti challenger; verificare se ricorre.
+**Status:** osservazione (1).

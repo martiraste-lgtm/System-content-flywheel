@@ -41,4 +41,11 @@ Ultima revisione: 2026-05 (struttura creata, da popolare con gli engagement real
 **Visto in:** energy-mgmt-b2b-startup-01 (1)
 **Pattern:** il cliente rifiuta di "sembrare una piccola Enel/Siemens/Schneider" ma teme anche di risultare poco credibile. La differenziazione deve nascere da asset reali (competenza, integrazione, verticalità, velocità, affidabilità), non da creatività cosmetica.
 **Implicazione upstream:** tema di contenuto trasversale ai clienti challenger; verificare se ricorre.
+**Verbatim:** "piccolo esercito vs esercito enorme → l'unico esito è la distruzione" — la guerra asimmetrica come modello mentale del challenger.
+**Status:** osservazione (1).
+
+### P4 — Il buyer tecnico vuole un messaggio "più evoluto" oltre la feature/efficienza
+**Visto in:** energy-mgmt-b2b-startup-01 (1)
+**Pattern:** in aziende ad alto contenuto tecnico, il cliente rifiuta il messaggio "siamo i più bravi a fare X" e cerca un livello concettuale superiore (es. "dati ≠ conoscenza"), pur chiedendo hook semplici ("a prova di babbuino"). Tensione tra profondità della tesi e semplicità dell'aggancio.
+**Implicazione upstream:** conferma il principio editoriale "hook semplice, approfondimento dopo" (`../foundation/voice-guide.md`); possibile angolo di contenuto ricorrente per clienti tech.
 **Status:** osservazione (1).

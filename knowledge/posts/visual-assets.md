@@ -379,7 +379,7 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 **Contenuto sintetico**:
 - Struttura fedele allo schizzo a mano di Stefano (resa verticale): titolo "Posizionamento early stage · Da 1.000€ a 30/50 mila € MRR"
-- Due lati: CATTIVO (rosso) = "Il tuo Prodotto" → 3 Target, **3 catene parallele identiche** (Use case → Offerta → Canale → Asset HP+Deck → Casi studio) = tutto triplicato. BUON (verde lime) = "Il tuo Prodotto" → 4 Target potenziali ma **ne scegli UNO** (Target 4 evidenziato lime + ✓, gli altri sfumati); la catena (1 use case, 1 offerta…) è costruita **sul target scelto** = Focus (caption: "1 target, 1 use case, 1 offerta, 1 asset → Focus").
+- Titoli colorati a testo + pannelli con sfondo sfumato (rosa/verde). CATTIVO (rosso) = "IL TUO PRODOTTO" → frecce divergenti → 3 Target (con ⚠️), **3 catene parallele identiche** (Use Case → Offerta → Canale → Asset: H.P./Sales Deck → Casi Studio) = tutto triplicato. BUON (verde lime) = "IL TUO PRODOTTO" → 4 Target potenziali ma **ne scegli UNO**: i 3 scartati grigi impilati a sinistra, Target 4 evidenziato lime + ✓ + glow a destra con la catena (1 Use Case, 1 Offerta… Casi Studio unici) costruita **sul target scelto** = Focus (caption: "1 target, 1 use case, 1 offerta, 1 asset → Focus").
 - Sotto a ogni lato: PROBLEMI CHE AVRAI (4 voci ✕) / VANTAGGI CHE AVRAI (5 voci ✓), testo dallo schizzo
 - Nessun footer (rimosso su richiesta).
 

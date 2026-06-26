@@ -18,30 +18,34 @@ STILE: Infografica comparativa, pulita, sfondo CHIARO. Brand caldo "acceso": ros
 LAYOUT (dall'alto in basso):
 - HEADER full-width: titolo "Posizionamento early stage" (la parola "early stage" in arancione) +
   riga sotto "Da 1.000€ a 30/50 mila € MRR". Linea nera spessa di separazione sotto.
-- DUE LATI affiancati (50/50), ciascuno una card bianca bordata nel colore del lato:
+- DUE LATI affiancati (50/50). Ogni lato: TITOLO colorato a testo (2 righe, centrato) sopra +
+  PANNELLO con SFONDO SFUMATO sotto. NON usare barre titolo piene.
 
   LATO SINISTRO — CATTIVO POSIZIONAMENTO (rosso):
-    · barra titolo rossa "CATTIVO POSIZIONAMENTO"
-    · rettangolo bordato nero centrato: "Il tuo Prodotto"
-    · linee che divergono (1 → 3) verso 3 box target affiancati: Target 1 · Target 2 · Target 3
-    · sotto OGNI target la SUA catena verticale di 5 nodi quadrati (3 catene parallele, identiche),
-      ognuna su una "corsia" a sfondo rosso chiarissimo:
-        Use case → Offerta → Canale → Asset · HP + Deck → Casi studio
+    · titolo a testo rosso su 2 righe: "CATTIVO / POSIZIONAMENTO"
+    · pannello con sfondo sfumato ROSA→bianco
+    · rettangolo bianco bordato rosso centrato: "IL TUO PRODOTTO" (maiuscolo, 2 righe)
+    · frecce che DIVERGONO (1 → 3) verso 3 box target affiancati: Target 1 · Target 2 · Target 3,
+      ognuno con icona ⚠️ in alto
+    · sotto OGNI target la SUA catena verticale di 5 nodi quadrati (3 catene parallele identiche),
+      con piccola freccia triangolare tra un nodo e l'altro:
+        Use Case → Offerta → Canale → Asset: H.P. / Sales Deck → Casi Studio
     · caption in corsivo rosso: "Tutto triplicato: 3 use case, 3 offerte, 3 deck, 3 set di casi studio."
     · pannello "PROBLEMI CHE AVRAI" (4 voci, pallino quadrato rosso ✕)
 
   LATO DESTRO — BUON POSIZIONAMENTO (verde lime):
-    · barra titolo verde lime "BUON POSIZIONAMENTO"
-    · rettangolo bordato nero centrato: "Il tuo Prodotto"
-    · linee verso 4 box target affiancati: Target 1 · Target 2 · Target 3 · Target 4
-      (4 target POTENZIALI, uno in più del lato cattivo)
-    · MA se ne SCEGLIE UNO: Target 4 è evidenziato (riempimento lime acceso #A3E635, bordo verde
-      spesso, badge ✓ in alto a destra); gli altri 3 target sono sfumati/grigi (opacità ~0.5).
-    · una sola linea parte dal Target 4 (scelto) e scende verso un'UNICA catena verticale di 5 nodi
-      quadrati, su corsia verde chiarissima — la catena è COSTRUITA SUL TARGET SCELTO:
-        1 Use case → 1 Offerta → 1 Canale → Asset · 1 HP + Deck → Casi studio
-    · caption in corsivo verde: "1 target, 1 use case, 1 offerta, 1 asset → Focus"
-      (la parola "Focus" in grassetto)
+    · titolo a testo verde lime su 2 righe: "BUON / POSIZIONAMENTO"
+    · pannello con sfondo sfumato VERDE→bianco
+    · rettangolo bianco bordato verde centrato: "IL TUO PRODOTTO"
+    · dal prodotto partono 4 frecce: 3 SOTTILI GRIGIE (opzioni scartate, a sinistra) + 1 SPESSA
+      VERDE (scelta, a destra)
+    · layout a 2 colonne dentro il pannello:
+      - SINISTRA: i 3 target SCARTATI in box GRIGI impilati verticalmente (Target 1, Target 2, Target 3)
+      - DESTRA: il Target SCELTO "Target 4" evidenziato (riempimento lime #A3E635, bordo verde,
+        badge ✓ in alto a destra, alone/glow verde), e SOTTO di lui la catena verticale costruita
+        sul target scelto:
+          1 Use Case → 1 Offerta → 1 Canale → Asset: H.P. / Sales Deck → Casi Studio unici
+    · caption in corsivo verde: "1 target, 1 use case, 1 offerta, 1 asset → Focus" ("Focus" in grassetto)
     · pannello "VANTAGGI CHE AVRAI" (5 voci, pallino quadrato verde ✓)
 
 - NESSUN footer. Nessuna firma, nessun logo.
@@ -93,10 +97,11 @@ VANTAGGI CHE AVRAI (✓):
 - Alternative chiare e stabili con cui confrontarti
 
 ELEMENTI GRAFICI:
-- TUTTI i nodi sono quadrati/rettangoli arrotondati (NON cerchi) — è ciò che ci distingue da Fletch.
-- Lato cattivo: 3 corsie parallele identiche = senso di duplicazione/caos.
-- Lato buono: 4 target potenziali, ma UNO scelto (Target 4 evidenziato lime + badge ✓, gli altri
-  sfumati); una sola linea dal target scelto verso la catena = senso di FOCUS/scelta.
-- Linee sottili dei "fan" nel colore del lato; frecce/flusso dall'alto verso il basso.
+- TUTTI i nodi sono quadrati/rettangoli arrotondati con leggera ombra (NON cerchi) — distinzione da Fletch.
+- Pannelli con sfondo sfumato (rosa a sx, verde a dx); titoli colorati a testo, non barre piene.
+- Lato cattivo: 3 catene parallele identiche + ⚠️ sui target = senso di duplicazione/caos.
+- Lato buono: 4 target potenziali, ma UNO scelto (Target 4 evidenziato lime + badge ✓ + glow);
+  i 3 scartati grigi a sinistra; freccia verde spessa dal prodotto al target scelto = FOCUS.
+- Frecce triangolari piccole tra i nodi; frecce divergenti dal prodotto ai target.
 - Il contrasto cromatico netto sinistra(rosso)/destra(verde lime) è l'elemento che ferma lo scroll.
 ```

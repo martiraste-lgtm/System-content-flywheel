@@ -417,6 +417,34 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Architettura-Posizionamento (mappa-indice)
+**File**: `infografiche/Architettura-Posizionamento.jsx` + `Architettura-Posizionamento-PROMPT.md`
+**Data**: 2026-06
+**Tema**: Mappa delle architetture di posizionamento (Dunford). Risponde a "Cosa stai posizionando?". Single product (azienda = prodotto) vs Multi product → 4 architetture.
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale **1080×1560**, palette **calda** (salmon/peach/cream/arancio), sfondo chiaro, senza firma. Variante "mappa/taxonomy" dello stile.
+
+**Contenuto sintetico**:
+- Header: "Architetture di Posizionamento" + domanda "Cosa stai posizionando? un prodotto, più prodotti, un brand, una piattaforma…?"
+- Split macro: SINGLE PRODUCT (esempio Calendly, "azienda = prodotto" → un solo posizionamento) vs MULTI PRODUCT (box arancio → 4 architetture)
+- 4 card (2×2), ognuna tag-logica + Quando + Test secco (box scuro) + Es.:
+  - ① Ombrello (Aggregazione) — Es. Atlassian
+  - ② Lead Product + Add-on (Sequenza) — Es. Salesforce/Marketing Cloud
+  - ③ Famiglia/Piattaforma (Combinazione) — Es. Google
+  - ④ Per Segmento (Buyer diversi) — mini-fork "credibilità trasferisce? Sì→ombrello / No→brand separati" — Es. Alphabet
+- Si ferma alle 4 architetture.
+
+**Ruolo nella serie**: è la **mappa-indice** sopra ai deep-dive Dunford già nel repo: `Posizionamento-Prodotto-Singolo` (single), `Posizionamento-Multi-Prodotto-Separati` (=Ombrello ①), `Posizionamento-Lead-Product-AddOn` (②), `Posizionamento-Famiglia-Piattaforma` (③). ④ Per Segmento non ha ancora un deep-dive.
+
+**Tavole successive previste** (serie, non ancora fatte): guida "A CHI vendi" (stesso buyer → ①②③ / buyer diversi → ④) e box "Positioning o Packaging?" (prodotti veri vs feature accumulate — gancio al POV anti-accumulo).
+
+**Reference (non clonata)**: April Dunford — le architetture di posizionamento multi-prodotto. Esempi tutti tech (Atlassian, Salesforce, Google, Alphabet). Stile coerente con la serie deep-dive (palette calda).
+
+**Note qualitative**: *(da compilare dopo render — verificare densità della card ② col testo lungo e leggibilità del mini-fork in ④)*
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

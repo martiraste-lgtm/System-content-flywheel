@@ -28,8 +28,14 @@ Ricorda la struttura della reference **Fletch** ("Bad vs Good") ma **non la copi
   in due diagrammi. Colori extra ammessi nello stesso linguaggio: **arancio = àncora/fisso**,
   **blu `#2563EB` = da esplorare/testare**, **verde glow = output/pattern**.
 
-Le due tavole formano una **serie**: fase Tesi (0→1/10k, Variante B) → fase Posizionamento (1k→30/50k,
-Variante A). Insight comune: errore *chiudi troppo presto* vs *non chiudi mai*.
+- **Variante C — mappa / taxonomy** (canvas 1080×~1560, **palette calda** salmon/peach/cream/arancio):
+  non è un confronto buono/cattivo ma una **classificazione**. Header con domanda → split macro →
+  griglia di card (tag-logica + "Quando" + box scuro "Test secco" + "Es."). Es.:
+  `Architettura-Posizionamento.jsx` (mappa-indice delle architetture Dunford). Usa la palette calda
+  della serie deep-dive, non il rosso/verde.
+
+Le due tavole comparative formano una **serie**: fase Tesi (0→1/10k, Variante B) → fase Posizionamento
+(1k→30/50k, Variante A). Insight comune: errore *chiudi troppo presto* vs *non chiudi mai*.
 
 ---
 

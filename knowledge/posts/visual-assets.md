@@ -387,7 +387,33 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 **Reference usata (non clonata)**: "Bad vs Good Positioning" di Fletch — ne ricorda la struttura (prodotto in cima → target sotto) ma **tutti i nodi sono quadrati/rettangoli, non i cerchi di Fletch**. Il contrasto è reso fedelmente allo schizzo: 3 catene parallele identiche (cattivo) vs 4 target potenziali tra cui se ne SCEGLIE uno, con la catena costruita solo sul target scelto (buon).
 
-**⭐ Versione finale approvata da Stefano** — è il modello di riferimento per lo stile "comparativa cattivo/buon". Lo stile riusabile (struttura, palette, componenti, tipografia) è documentato in [`infografiche/STYLE-GUIDE.md`](../../infografiche/STYLE-GUIDE.md). Le iterazioni precedenti (badge ×N/×1, convergenza 4→1, footer) sono state scartate.
+**⭐ Versione finale approvata da Stefano** — è il modello di riferimento per lo stile "comparativa cattivo/buon" (**Variante A — due diagrammi paralleli**). Lo stile riusabile (struttura, palette, componenti, tipografia) è documentato in [`infografiche/STYLE-GUIDE.md`](../../infografiche/STYLE-GUIDE.md). Le iterazioni precedenti (badge ×N/×1, convergenza 4→1, footer) sono state scartate.
+
+**Serie**: è la **tavola 2/2** della serie "posizionamento early stage". La fase precedente è `Tesi-Posizionamento-Cattiva-vs-Buona`.
+
+---
+
+### Tesi-Posizionamento-Cattiva-vs-Buona
+**File**: `infografiche/Tesi-Posizionamento-Cattiva-vs-Buona.jsx` + `Tesi-Posizionamento-Cattiva-vs-Buona-PROMPT.md`
+**Data**: 2026-06
+**Tema**: La fase PRIMA del posizionamento (0 → 1/10k MRR): hai una **Tesi di Posizionamento** (ipotesi), non un posizionamento. "Confusione Programmata" da governare.
+**Post associato**: *(da collegare)*
+**Funnel**: ToF/MoF
+**Formato**: JSX (React artifact), verticale **1080×1600** (più alta della 1ª per le 4 sezioni), sfondo chiaro, senza firma. **Variante B — sezioni impilate** dello stile (vedi STYLE-GUIDE).
+
+**Contenuto sintetico** (4 sezioni impilate):
+- Header: "Tesi di posizionamento · Da 0€ a 1/10 mila € MRR" + descrizione "Confusione Programmata"
+- Sez.2 "Gli elementi da osservare (non da bloccare)": 3 livelli — ÀNCORA (🔒 Problema, arancio) → DA ESPLORARE (Target/Alternative/Valore/Use case, blu, 2×2) → OUTPUT (⭐ PATTERN·SEGNALI, verde glow)
+- Sez.3 Cattiva vs Buona tesi: la cattiva mostra **le due trappole opposte** (🔒 chiudi troppo presto / 🌀 non chiudi mai — dopo anni ancora su segmenti diversi); la buona = àncora il problema, varia un asse alla volta, ascolta, **chiudi sul pattern (criterio d'uscita)**. + box-nota "🛑 Use case/Homepage/Sales deck/Value prop → li SCOPRI, non bloccarli ora"
+- Sez.4 callout scuro: "📞 Testa IN CALL" + chip "tono di voce · espressioni · parole che usano"
+
+**Palette**: stessa della 1ª (rosso=cattiva, verde lime=buona) + **arancio per Problema-àncora** + **blu (#2563EB) per gli elementi da esplorare**. Sfondo chiaro #F8F8F8.
+
+**Insight portante (serie)**: errore in 2 direzioni opposte — *chiudi troppo presto* vs *non chiudi mai* (la trappola founder più comune: restare broad per anni). La via giusta è disciplinata in mezzo, con criterio d'uscita → si gradua alla fase Posizionamento (Focus) della tavola 1.
+
+**Reference usata (non clonata)**: April Dunford ("positioning è un'ipotesi all'inizio") + Bob Moesta (JTBD: àncora sul job, non sulla firmografica). Stile coerente con `Posizionamento-EarlyStage-Cattivo-vs-Buon`.
+
+**Note qualitative**: *(da compilare dopo render — verificare che le 4 sezioni respirino a 1080×1600 e che il blu-esplora non si confonda col verde-buona)*
 
 ---
 

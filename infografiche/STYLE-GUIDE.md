@@ -11,12 +11,25 @@
 
 ## 1. Quando usare questo stile
 
-Confronto a due lati **negativo vs positivo** (errore vs soluzione, prima vs dopo, sbagliato vs giusto)
-in cui ogni lato è una **catena/flusso di elementi**. Pensato per LinkedIn: deve far capire "a colpo
-d'occhio" cosa è buono e cosa no.
+Confronto a due lati **negativo vs positivo** (errore vs soluzione, prima vs dopo, sbagliato vs giusto).
+Pensato per LinkedIn: deve far capire "a colpo d'occhio" cosa è buono e cosa no.
 
 Ricorda la struttura della reference **Fletch** ("Bad vs Good") ma **non la copia**: tutti i nodi sono
 **quadrati/rettangoli arrotondati**, mai cerchi.
+
+### Due varianti di layout (stessa palette/tipografia/componenti)
+
+- **Variante A — due diagrammi paralleli** (canvas 1080×1350): ogni lato è una **catena/flusso di nodi**
+  (prodotto → target → use case → …). Es. canonico: `Posizionamento-EarlyStage-Cattivo-vs-Buon.jsx`.
+  Usala quando il confronto è tra due *processi/strutture*.
+- **Variante B — sezioni impilate** (canvas 1080×~1600): header → sezione "elementi" → confronto
+  cattivo/buon a liste → callout finale. Es.: `Tesi-Posizionamento-Cattiva-vs-Buona.jsx`.
+  Usala quando hai più blocchi concettuali (elementi + confronto + nota operativa) che non stanno
+  in due diagrammi. Colori extra ammessi nello stesso linguaggio: **arancio = àncora/fisso**,
+  **blu `#2563EB` = da esplorare/testare**, **verde glow = output/pattern**.
+
+Le due tavole formano una **serie**: fase Tesi (0→1/10k, Variante B) → fase Posizionamento (1k→30/50k,
+Variante A). Insight comune: errore *chiudi troppo presto* vs *non chiudi mai*.
 
 ---
 

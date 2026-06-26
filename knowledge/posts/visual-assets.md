@@ -385,9 +385,9 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 **Palette**: brand caldo "acceso" + **verde lime aggiunto** (#65A30D, target scelto #A3E635) per il lato buono; rosso-corallo #EF3B2C per il cattivo; accento arancio #F47B20. Sfondo chiaro #F8F8F8.
 
-**Reference usata (non clonata)**: "Bad vs Good Positioning" di Fletch — ne ricorda la struttura (prodotto in cima → target sotto) ma **tutti i nodi sono quadrati/rettangoli, non i cerchi di Fletch**. Il contrasto è reso fedelmente allo schizzo: 3 catene parallele (cattivo) vs convergenza 4→1 in una catena unica (buon).
+**Reference usata (non clonata)**: "Bad vs Good Positioning" di Fletch — ne ricorda la struttura (prodotto in cima → target sotto) ma **tutti i nodi sono quadrati/rettangoli, non i cerchi di Fletch**. Il contrasto è reso fedelmente allo schizzo: 3 catene parallele identiche (cattivo) vs 4 target potenziali tra cui se ne SCEGLIE uno, con la catena costruita solo sul target scelto (buon).
 
-**Note qualitative**: *(da compilare dopo render — verificare leggibilità dei nodi a 11,5px nelle 3 corsie del lato cattivo a 1080px di larghezza, e che le liste in basso non escano dai 1350px)*
+**⭐ Versione finale approvata da Stefano** — è il modello di riferimento per lo stile "comparativa cattivo/buon". Lo stile riusabile (struttura, palette, componenti, tipografia) è documentato in [`infografiche/STYLE-GUIDE.md`](../../infografiche/STYLE-GUIDE.md). Le iterazioni precedenti (badge ×N/×1, convergenza 4→1, footer) sono state scartate.
 
 ---
 

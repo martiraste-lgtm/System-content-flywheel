@@ -445,6 +445,29 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Architettura-DecisionTree
+**File**: `infografiche/Architettura-DecisionTree.jsx` + `Architettura-DecisionTree-PROMPT.md`
+**Data**: 2026-06
+**Tema**: Decision tree "Come scegliere la giusta architettura di posizionamento" — dato ciò che HAI, quale architettura adottare.
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale larghezza **1080** altezza auto, veste **bicolore** (blu = percorso, arancio = foglie-architettura, verde/rosso = badge). Sfondo chiaro, senza firma.
+
+**Contenuto sintetico** (cascata sì/no top-to-bottom; ramo che prosegue a SINISTRA, foglia che esce a DESTRA):
+- Kicker "GUIDA PER ARCHITETTURA DI POSIZIONAMENTO" + titolo con frase evidenziata + box-regola ambra ("rispondi dall'alto, solo sì/no")
+- **GATE 0** Prodotto o feature? → No (destra) = STOP (è PACKAGING: tier/add-on/bundle) · Sì (sinistra) = scendi
+- **STEP 1** Quanti prodotti? → Uno = Single product (azienda=prodotto, es. Calendly) + sub-box **Orizzontale** (stesso use case? sì = 1 posizionamento; no = restringi/verticale) · Più di uno = scendi
+- **STEP 2** A chi? → Buyer diversi = **④ Per Segmento** (use case diversi, alternative differenti, posizionamenti separati — la meno comune) · Stesso buyer = scendi
+- **STEP 3** Come li comprano? → ① Ombrello (separati) · ② Lead+Add-on (in sequenza) · ③ Famiglia/Piattaforma (combinati), con Test + Es. (Atlassian/Salesforce/Google)
+
+**Ruolo nella serie**: tavola gemella della mappa `Architettura-Posizionamento` — ne è la **guida operativa di collocazione** ("A CHI vendi") resa come decision tree. Gate 0 (Positioning vs Packaging) integrato come ingresso.
+
+**Reference (non clonata)**: formato decision-tree ispirato all'albero di Alex Estner "How to Choose the Right Primary Anchor" — ma diverso livello (architettura ≠ anchor) e veste della serie. Nota: nel render NON deve comparire la parola "Estner" né sottotitoli.
+
+**Note qualitative**: *(da compilare dopo render — Gemini non rispetta in modo affidabile la disposizione sì/no: il .jsx è la fonte autorevole del layout)*
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

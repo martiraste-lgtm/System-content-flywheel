@@ -34,6 +34,12 @@ Ricorda la struttura della reference **Fletch** ("Bad vs Good") ma **non la copi
   `Architettura-Posizionamento.jsx` (mappa-indice delle architetture Dunford). Usa la palette calda
   della serie deep-dive, non il rosso/verde.
 
+- **Variante D — decision tree** (larghezza 1080, altezza auto): cascata sì/no top-to-bottom con badge
+  verde/rosso, foglie laterali e box-regola in cima. Convenzione: il ramo che **prosegue** sta a
+  SINISTRA (spina blu), la **foglia** che esce a DESTRA. Veste **bicolore**: blu = percorso, arancio =
+  foglie. Es.: `Architettura-DecisionTree.jsx`. Nota: i generatori d'immagine (Gemini) non rispettano
+  la disposizione sì/no — il `.jsx` è la fonte autorevole del layout.
+
 Le due tavole comparative formano una **serie**: fase Tesi (0→1/10k, Variante B) → fase Posizionamento
 (1k→30/50k, Variante A). Insight comune: errore *chiudi troppo presto* vs *non chiudi mai*.
 

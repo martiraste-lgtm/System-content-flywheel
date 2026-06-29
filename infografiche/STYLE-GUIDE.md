@@ -40,6 +40,13 @@ Ricorda la struttura della reference **Fletch** ("Bad vs Good") ma **non la copi
   foglie. Es.: `Architettura-DecisionTree.jsx`. Nota: i generatori d'immagine (Gemini) non rispettano
   la disposizione sì/no — il `.jsx` è la fonte autorevole del layout.
 
+### Rubrica ripetibile (sub-serie "Architetture di Posizionamento")
+I deep-dive per-architettura condividono un **masthead-rubrica** riconoscibile: H1 "Architetture di
+**Posizionamento**" (Posizionamento arancione) + sottotitolo-domanda + linea nera + **strip-indice a
+5 pill** (Single · Ombrello · Lead+Add-on · Famiglia · Per Segmento) con la puntata corrente
+evidenziata in arancio. Riusalo identico su ogni puntata, cambia solo la pill attiva. Implementazione
+di riferimento: `Architettura-SingleProduct.jsx` (deep-dive #1).
+
 Le due tavole comparative formano una **serie**: fase Tesi (0→1/10k, Variante B) → fase Posizionamento
 (1k→30/50k, Variante A). Insight comune: errore *chiudi troppo presto* vs *non chiudi mai*.
 

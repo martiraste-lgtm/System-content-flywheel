@@ -468,6 +468,29 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Architettura-SingleProduct (deep-dive #1 sub-serie)
+**File**: `infografiche/Architettura-SingleProduct.jsx` + `Architettura-SingleProduct-PROMPT.md`
+**Data**: 2026-06
+**Tema**: Deep-dive #1 della **sub-serie "Architetture di Posizionamento"** — il **Single product** (azienda = prodotto, un solo posizionamento).
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale **1080×1300**, palette **calda**, sfondo chiaro, senza firma.
+
+**Contenuto sintetico**:
+- **Masthead/rubrica ripetibile**: H1 "Architetture di Posizionamento" + sottotitolo-domanda + **strip-indice a 5 tab** (Single · Ombrello · Lead+Add-on · Famiglia · Per Segmento) con "① Single" evidenziato → è il device riconoscibile che si ripete su ogni puntata (cambia solo il tab evidenziato).
+- **Hero box**: "Single Product Positioning · azienda = prodotto" → diagramma due box "L'azienda = Il prodotto" (rivisitazione del "Single Product Company Positioning" di Dunford/productify, rinominato) + "un solo posizionamento".
+- **4 esempi (2×2) fase iniziale**: Loom (video/screen recording async) · Miro (whiteboard online) · Figma (design collaborativo) · Typeform (form conversazionali). Ogni card: tile-logo + mini-diagramma "Brand (azienda) = Brand (prodotto)" + descrizione.
+
+**Loghi**: nel `.jsx` = **tile a colore brand + wordmark** (Loom viola #625DF5, Miro giallo #FFD02F, Typeform nero #1A1A1A, Figma multicolor); nel prompt Gemini si chiedono i **loghi veri**.
+
+**Ruolo nella serie**: prima puntata dei deep-dive per-architettura, sotto la mappa `Architettura-Posizionamento`. Le prossime 4 (Ombrello/Lead/Famiglia/Per Segmento) **riusano masthead + strip-indice**.
+
+**Reference (non clonata)**: "Single Product Company Positioning" di April Dunford/productify (due box + "="). Rinominata in astratto ("L'azienda = Il prodotto") + esempi tech reali nostri.
+
+**Note qualitative**: *(da compilare dopo render — verificare bilanciamento hero/esempi e leggibilità tile-logo a 1080px)*
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

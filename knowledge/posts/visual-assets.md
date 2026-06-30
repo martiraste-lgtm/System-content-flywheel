@@ -491,6 +491,31 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Strategia-Posizionamento (pillar)
+**File**: `infografiche/Strategia-Posizionamento.jsx` + `Strategia-Posizionamento-PROMPT.md`
+**Data**: 2026-06
+**Tema**: Pillar **Strategia di Posizionamento** — "Che gioco decidi di fare": le 5 strategie unificate disposte lungo lo spettro di maturità di categoria.
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale 1080 × altezza auto (~1400), **accento BLU** (distingue il pillar Strategia dall'arancio di Architetture), sfondo chiaro, senza firma.
+
+**Contenuto sintetico**:
+- Masthead blu: "Strategia di Posizionamento" + "Che gioco decidi di fare: 5 strategie di posizionamento"
+- **Barra-gradiente maturità** (caldo/affollato → freddo/greenfield) come spina dello spettro
+- **Zona CATEGORIA MATURA** (① e ② affiancate: stessa maturità, mosse opposte — accetti vs cambi i criteri): ① Domina/head-to-head (Coca/Pepsi, Samsung/Apple) · ② Riformula (Tesla, Apple)
+- In sequenza: ③ Big Fish Smaller Pond (DuckDuckGo, CRM banche/assicurazioni) · ④ Categoria immatura in crescita (Docusign, Dropbox) · ⑤ Crea una nuova categoria (Salesforce, Vanta)
+- Ogni card: numero + nome + meccanismo + Quando/Caso. Niente sezione distinzioni (rimossa su richiesta).
+
+**Palette**: accento **blu** #2563EB / navy #1E3A8A; barra-gradiente rosso #EF4444 → ambra #F59E0B → verde #16A34A. Niente arancio (riservato al pillar Architetture).
+
+**Pillar**: è un pillar distinto da "Architetture di Posizionamento", riconoscibile dal colore dominante blu. Standalone (niente breadcrumb livelli). Le "3 distinzioni difendibili" (Riformula≠head-to-head, Crea=viaggio, strategia≠anchor) restano disponibili per una tavola futura.
+
+**Reference (non clonata)**: framework personale di Stefano (5 strategie unificate per maturità di categoria).
+
+**Note qualitative**: *(da compilare dopo render — card ④ è la più densa per via del testo lungo)*
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

@@ -516,6 +516,31 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Fondamenta-Product-Marketing-Home-Page (iceberg)
+**File**: `infografiche/Fondamenta-Product-Marketing-Home-Page.jsx` + `Fondamenta-Product-Marketing-Home-Page-PROMPT.md`
+**Data**: 2026-07
+**Tema**: Reframe diagnostico — "non è un problema di Copy, è un problema di fondamenta di Product Marketing". Il founder continua a rifare Home Page/Hero/copy (la punta), ma il problema sono le 5 fondamenta PMM mancanti (la massa sommersa).
+**Post associato**: post LinkedIn "Hai già riscritto la tua Home Page 10 volte…" (CTA soft luglio/agosto → Calendly). *(post da collegare quando pubblicato)*
+**Funnel**: MoF (companion visual del post + gancio consulenza)
+**Formato**: JSX (React artifact SVG), portrait **1080×1600**, senza firma/footer. Metafora ICEBERG.
+
+**Contenuto sintetico**:
+- Header reframe: H1 domanda + H2 "Non è un problema di Copy" (barrato, rosso) + H3 "è fondamenta di PM" (accent arancio)
+- Punta emersa = "LA HOME PAGE" (tag rosso "⟳ quello che continui a rifare") con 2 asset: ÀNCORA (Use Case/Product Category/Alternativa/Attività) + HERO SECTION (le 5–10 parole) · "≈10% visibile"
+- Massa sommersa (blu, iceberg) = 5 fondamenta ordinate per profondità dalla superficie al keel: ICP → Strategia di Posizionamento → Architettura di Posizionamento → POV → **Tesi di Prodotto** (keel = la più strategica/profonda). Asse destro "più profondo = più strategico"
+- Esempi **tutti da Figma** (uno per fondamenta): ICP (team prodotto vs freelance, trigger 'final_v3') · Strategia (categoria matura → cambia i criteri, real-time browser) · Architettura (Single Product → piattaforma: FigJam/Dev Mode/Slides) · POV ("design = lavoro di squadra", multiplayer) · Tesi (design pro nel browser vs desktop single-player)
+- Keel caption: "Le fondamenta sono il 90% invisibile. Lì si perde — o si vince — il deal."
+
+**Decisioni utente**: metafora iceberg (scelta tra iceberg / casa+fondamenta / stack a zone); esempi = una sola azienda (Figma) attraverso tutte e 5 (vs miglior esempio per concetto). Ordinamento: Tesi = keel/più profonda, ICP appena sotto la superficie (invertibile in review se si preferisce l'ordine narrativo del post).
+
+**Palette**: sistema chiaro (bg #F8F8F8, ink #2D2D2D, accent arancio #F47B20) + **acqua/fondamenta blu** (#4C93F7→#132552, coerente con "blu = foundation" di GTM Power System/Anatomia) + rosso-corallo #EF3B2C per il sintomo (punta). Font Inter.
+
+**Reference (non clonata)**: metafora iceberg classica "visible tip vs hidden mass" riadattata al brand system; non è una comparativa cattivo/buon (STYLE-GUIDE Variante A/B) ma una gerarchia di profondità.
+
+**Note qualitative**: *(da compilare dopo render — verificare: leggibilità testo bianco sulle slab blu profonde, che la punta non risulti troppo piccola vs header, wrap delle pill Figma a 1080px, effetto punta-piccola/massa-grande a colpo d'occhio, slab POV/Tesi le più dense)*
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

@@ -9,13 +9,18 @@ Ogni autore ha la sua cartella. Questo file è il router.
 
 Aggiungi qui gli autori che vuoi studiare, con note sul perché ti interessano.
 
-| Autore | Profilo LinkedIn | Perché lo studi | Analizzato |
-|--------|-----------------|-----------------|------------|
-| Maja Voje | linkedin.com/in/majavoje | GTM strategy, AI tools, startup early stage — segmento simile al mio | Sì (apr 2026) |
-| Pierre Herubel | linkedin.com/in/pierre-herubel-540b3949 | Content strategy B2B, caroselli — già in carousel skill, qui post testuali | Sì (apr 2026) |
-| Alex Estner | linkedin.com/in/alexander-estner | GTM strategy execution — nessun dato esistente | Sì (apr 2026) |
-| Douwe Wester | linkedin.com/in/douwewester | GTM, post testuali — placeholder nel carousel skill | Sì (apr 2026) |
-| Anthony Pierri | linkedin.com/in/anthonypierri | Positioning B2B + homepage — già in saas-homepage-analyzer skill, qui pattern LinkedIn | Sì (apr 2026) |
+| Autore | Profilo LinkedIn | Perché lo studi | Analizzato | Radar settimanale |
+|--------|-----------------|-----------------|------------|-------------------|
+| Maja Voje | linkedin.com/in/majavoje | GTM strategy, AI tools, startup early stage — segmento simile al mio | Sì (apr 2026) | ✓ |
+| Pierre Herubel | linkedin.com/in/pierre-herubel-540b3949 | Content strategy B2B, caroselli — già in carousel skill, qui post testuali | Sì (apr 2026) | ✓ |
+| Alex Estner | linkedin.com/in/alexander-estner | GTM strategy execution — nessun dato esistente | Sì (apr 2026) | ✓ |
+| Douwe Wester | linkedin.com/in/douwewester | GTM, post testuali — placeholder nel carousel skill | Sì (apr 2026) | ✓ |
+| Anthony Pierri | linkedin.com/in/anthonypierri | Positioning B2B + homepage — già in saas-homepage-analyzer skill, qui pattern LinkedIn | Sì (apr 2026) | ✓ |
+| April Dunford | linkedin.com/in/aprildunford | Positioning B2B, architetture multi-product — fonte primaria del metodo (pillar architetture) | No — solo radar | ✓ |
+| Rob Kaminski | linkedin.com/in/heyrobk | Positioning & messaging B2B (Fletch) — fonte framework H1/homepage, contenuti visual | No — solo radar | ✓ |
+
+**Radar settimanale** = monitorato ogni domenica dalla skill `content-radar` (report su Google Doc,
+log in `radar/log.md`). La watchlist operativa sta in `~/.claude/skills/content-radar/references/watchlist.md`.
 
 ---
 

@@ -8,13 +8,13 @@ Leggilo integralmente prima di qualsiasi task.
 ## Chi sono e cosa faccio
 
 Sono Stefano Martiradonna. Product Marketing Fractional e consulente.
-Lavoro con startup tech early stage (pre-PMF, 150K–2M ARR), startup in growth, e PMI.
+Lavoro con startup tech B2B in growth (segmento principale del contenuto), startup early-stage, e PMI.
 
-Pubblico su due canali:
-- **LinkedIn** — post testuali, caroselli, hook
-- **Substack "da 0 al PMF"** — articoli long-form su product marketing, positioning, GTM
+Pubblico su due canali, con ruoli distinti (hub & spoke):
+- **Substack "da 0 al PMF"** (hub) — il metodo per intero: articoli long-form su positioning, product marketing, GTM. Dove chi vuole approfondisce.
+- **LinkedIn** (distribuzione) — gli articoli si spacchettano in post + infografiche/grafiche impattanti. Obiettivi: nuovi lead, attenzione, restare nella testa di chi mi conosce ma non ha ancora esigenza dei miei servizi.
 
-Il mio posizionamento ruota attorno alla newsletter. Trattala come canale strategico, non side project.
+Concept editoriale corrente: **"Accumulo"** (2026-07) — vedi `knowledge/foundation/` (POV-master: "il tuo problema non è il copy, è una decisione di prodotto mai presa").
 
 ---
 
@@ -57,9 +57,10 @@ Caricare tutto porta a context pollution — l'AI infila riferimenti che il pezz
 
 | Task | Skill da invocare | Knowledge aggiuntiva da leggere |
 |------|-------------------|---------------------------------|
-| Scrivi post LinkedIn | `linkedin-viral-post-writer` | `knowledge/foundation/voice-guide.md` + `pov.md` + `audience.md` + `knowledge/client-intelligence/` + `knowledge/references/` |
-| Scrivi articolo Substack | `newsletter-writer` | `knowledge/foundation/` (positioning, pov, voice) + `knowledge/client-intelligence/` + `knowledge/proof-library/` + `knowledge/platforms/substack/` |
-| Crea carosello LinkedIn | `linkedin-carousel-creator` | `knowledge/foundation/voice-guide.md` + `pov.md` |
+| Scrivi post LinkedIn | `linkedin-viral-post-writer` | `knowledge/foundation/voice-guide.md` + `pov.md` + `audience.md` + `content-strategy.md` (tipo di contenuto + trigger) + `knowledge/client-intelligence/` + `knowledge/references/` |
+| Scrivi articolo Substack | `newsletter-writer` | `knowledge/foundation/` (positioning, pov, voice, content-strategy) + `metodo-catena.md` (se articolo di metodo) + `knowledge/client-intelligence/` + `knowledge/proof-library/` + `knowledge/platforms/substack/` |
+| Crea carosello LinkedIn | `linkedin-carousel-creator` | `knowledge/foundation/voice-guide.md` + `pov.md` + `content-strategy.md` |
+| Crea infografica di metodo | `infographic-creator` | `knowledge/foundation/metodo-catena.md` + `pov.md` |
 | Analizza autore di riferimento | nessuna skill, usa Chrome MCP | `knowledge/references/` |
 | Feedback su un mio pezzo | `newsletter-writer` Modalità 3 | `knowledge/foundation/pov.md` + `knowledge/posts/` + `knowledge/hypotheses/active.md` |
 | Estrai insight da un engagement | nessuna skill (workflow in INDEX) | `knowledge/client-intelligence/INDEX.md` |

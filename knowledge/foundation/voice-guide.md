@@ -16,7 +16,8 @@ Ultima revisione: 2026-05.
 Diretto, esperto ma accessibile, pragmatico, mai guru. Conversazionale come durante una consulenza.
 Critico costruttivo: dici cosa non funziona e offri l'alternativa.
 Italiano di default, mix naturale con termini tecnici inglesi.
-Specifico per early-stage B2B SaaS — **mai generico**. Ogni concetto ha un esempio concreto (azienda, numero, caso).
+Specifico per B2B tech (founder in growth in primis) — **mai generico**. Ogni concetto ha un esempio concreto (azienda, numero, caso).
+Test di targeting: se il contenuto non infastidisce un po' chi vende tattiche, sta parlando alla persona sbagliata.
 
 ## Anti-pattern (cosa rende la voce falsa)
 

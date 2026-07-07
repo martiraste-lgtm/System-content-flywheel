@@ -38,6 +38,7 @@ Regole:
 - energy-mgmt-b2b-startup-01: il founder formula il bisogno come "vendere di più / meno dipendente da me"; la diagnosi reale che ho portato è a monte (coerenza business model ↔ GTM + positioning). Conferma che il reframe è *vero* in un contesto di vendita reale → materiale concreto per testarlo come hook sulla mia audience.
 **Evidenze contro**: 
 **Status**: ipotesi forte — da testare sulla mia audience italiana. Ora ho un caso cliente mio da cui costruire il post (non più solo quote di Estner/Wester).
+**Nota 2026-07 (concept Accumulo)**: il bersaglio del reframe sale di livello — la misconception madre del nuovo buyer è "è un problema di copy: basta spiegare meglio le features". Il pattern resta identico; il ribaltamento ora punta a "hai una decisione di prodotto mai presa" (vedi `../foundation/pov.md`, sotto-POV 1).
 
 ---
 
@@ -99,6 +100,16 @@ Regole:
 - Estner: i post con CTA ("comment GTM" per ricevere) hanno molti commenti ma engagement artificiale
 **Evidenze contro**: 
 **Status**: ipotesi con evidenza indiziaria forte — da testare sistematicamente nei prossimi 10 post
+
+---
+
+### H07 — I contenuti agganciati a trigger di evento positivo portano lead più qualificati dei contenuti costruiti sul dolore
+**Piattaforma**: LinkedIn (con effetto a valle su inbound)
+**Formulata**: luglio 2026 (dal doc POV & Content Strategy — asserita da insight strategico, da validare con dati)
+**Ipotesi**: Un contenuto agganciato a un trigger di evento positivo (round appena chiuso, lancio nuovo prodotto, nuovo CMO/primo marketing hire, espansione di segmento/mercato) genera meno reach di un contenuto costruito sul dolore, ma porta lead inbound più lucidi, con budget e più pronti al lavoro di radice — quindi con conversione migliore sull'offerta.
+**Evidenze pro**:
+**Evidenze contro**:
+**Status**: in test — richiede tracking dei lead inbound per tipo di trigger del contenuto d'origine (colonna "Lead inbound" in `../posts/published.md`)
 
 ---
 

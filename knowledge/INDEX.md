@@ -13,7 +13,7 @@ Due famiglie: la **SOSTANZA** (chi sei, cosa dici, su quali prove) e la **FORMA*
 
 | Dominio | File | Quando caricarlo |
 |---------|------|------------------|
-| **Foundation** | `foundation/knowledge-base.md` (master) + `positioning.md`, `pov.md`, `audience.md`, `voice-guide.md` | SEMPRE prima di scrivere: positioning, POV, chi legge, voce. Si modifica il master, poi i derivati (cascade) |
+| **Foundation** | `foundation/knowledge-base.md` (master) + `positioning.md`, `pov.md`, `audience.md`, `voice-guide.md`, `metodo-catena.md`, `content-strategy.md` | SEMPRE prima di scrivere: positioning, POV, chi legge, voce. `metodo-catena.md` = la catena integrata (pillar/infografiche di metodo); `content-strategy.md` = tipi di contenuto, awareness, trigger. Si modifica il master, poi i derivati (cascade) |
 | **Client Intelligence** | `client-intelligence/INDEX.md` | Quando estrai insight da un engagement, o cerchi quote/pain/lessico reali dei tuoi clienti per un pezzo |
 | **Proof Library** | `proof-library/INDEX.md` | Quando fai un claim e ti serve un numero reale a supporto |
 
@@ -32,12 +32,14 @@ Due famiglie: la **SOSTANZA** (chi sei, cosa dici, su quali prove) e la **FORMA*
 
 ## Stato attuale della knowledge base
 
-**Foundation**: struttura creata (2026-05) — voci ⟦DA CONFERMARE⟧ da validare con Stefano
-**Client Intelligence**: struttura + template creati — da popolare col primo engagement estratto (LEVA #1)
+**Foundation**: CONFERMATA (2026-07) — concept "Accumulo" validato da Stefano (doc POV & Content Strategy).
+Nemico = accumulo di features / decisioni mai prese; audience primaria = founder B2B tech in growth;
+POV-master + 3 sotto-POV + lente AI; nuovi file `metodo-catena.md` e `content-strategy.md` (hub & spoke Substack→LinkedIn)
+**Client Intelligence**: struttura + template creati — 1 engagement estratto (LEVA #1)
 **Proof Library**: struttura creata — da popolare con risultati reali
 **References**: 5 autori analizzati (apr 2026) + pattern cross-autore
 **Posts**: 2 post registrati con performance
-**Hypotheses**: 6 ipotesi attive (H01-H06) — da rinforzare con evidenza dai miei clienti, non solo dagli autori
+**Hypotheses**: 7 ipotesi attive (H01-H07) — H01 aggiornata al nuovo concept; H07 su trigger positivi vs dolore
 **Craft**: tecniche T01-T06 + false beliefs + edit-patterns (loop dai miei edit)
 **Platforms**: regole base definite
 **Voice**: consolidata in `foundation/voice-guide.md`

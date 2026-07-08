@@ -417,31 +417,27 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
-### Architettura-Posizionamento (mappa-indice)
+### Architettura-Posizionamento (mappa-indice) — v2
 **File**: `infografiche/Architettura-Posizionamento.jsx` + `Architettura-Posizionamento-PROMPT.md`
-**Data**: 2026-06
-**Tema**: Mappa delle architetture di posizionamento (Dunford). Risponde a "Cosa stai posizionando?". Single product (azienda = prodotto) vs Multi product → 4 architetture.
+**Data**: 2026-06 · **v2 2026-07** (rimossa "Per Segmento", layout a cascata)
+**Tema**: Mappa delle architetture di posizionamento (Dunford). Risponde a "Cosa stai posizionando?". Single product (azienda = prodotto) vs Multi product → 3 architetture.
 **Post associato**: *(da collegare)*
 **Funnel**: MoF
-**Formato**: JSX (React artifact), verticale **1080×1560**, palette **calda** (salmon/peach/cream/arancio), sfondo chiaro, senza firma. Variante "mappa/taxonomy" dello stile.
+**Formato**: JSX (React artifact), verticale **1080×1350**, palette **calda** (salmon/peach/cream/arancio), sfondo chiaro, senza firma. Variante "mappa/taxonomy" dello stile.
 
-**Contenuto sintetico**:
+**Contenuto sintetico (v2)**:
 - Header: "Architetture di Posizionamento" + domanda "Cosa stai posizionando? un prodotto, più prodotti, un brand, una piattaforma…?"
-- Split macro: SINGLE PRODUCT (esempio Calendly, "azienda = prodotto" → un solo posizionamento) vs MULTI PRODUCT (box arancio → 4 architetture)
-- 4 card (2×2), ognuna tag-logica + Quando + Test secco (box scuro) + Es.:
-  - ① Ombrello (Aggregazione) — Es. Atlassian
-  - ② Lead Product + Add-on (Sequenza) — Es. Salesforce/Marketing Cloud
-  - ③ Famiglia/Piattaforma (Combinazione) — Es. Google
-  - ④ Per Segmento (Buyer diversi) — mini-fork "credibilità trasferisce? Sì→ombrello / No→brand separati" — Es. Alphabet
-- Si ferma alle 4 architetture.
+- Cascata verticale: card SINGLE PRODUCT a tutta riga (Calendly, "azienda = prodotto" → un solo posizionamento, "anche se lo vendi a settori diversi resta uno") → connettore "Hai più di un prodotto? ↓" → banda MULTI PRODUCT arancio a tutta riga → 3 linee → 3 card affiancate:
+  - ① Ombrello (Aggregazione) — Es. Atlassian: Jira · Confluence · Trello
+  - ② Lead Product + Add-on (Sequenza) — Es. Stripe: Billing · Radar
+  - ③ Famiglia/Piattaforma (Combinazione) — Es. HubSpot: Marketing · Sales · Service Hub
+**Decisione v2 (2026-07)**: **"Per Segmento" eliminata dalla serie** — confondeva e le 3 casistiche multi-product coprono la maggior parte dei casi (le infografiche semplificano; il caso che non entra si tratta a parte). Esempi ② e ③ sostituiti (Salesforce = naming pre-Agentforce; Google fuorviante).
 
-**Ruolo nella serie**: è la **mappa-indice** sopra ai deep-dive Dunford già nel repo: `Posizionamento-Prodotto-Singolo` (single), `Posizionamento-Multi-Prodotto-Separati` (=Ombrello ①), `Posizionamento-Lead-Product-AddOn` (②), `Posizionamento-Famiglia-Piattaforma` (③). ④ Per Segmento non ha ancora un deep-dive.
+**Ruolo nella serie**: è la **mappa-indice** sopra ai deep-dive della sub-serie (`Architettura-SingleProduct` #1, `Architettura-Ombrello` #2, `Architettura-LeadAddon` #3, `Architettura-Famiglia-Piattaforma` #4).
 
-**Tavole successive previste** (serie, non ancora fatte): guida "A CHI vendi" (stesso buyer → ①②③ / buyer diversi → ④) e box "Positioning o Packaging?" (prodotti veri vs feature accumulate — gancio al POV anti-accumulo).
+**Reference (non clonata)**: April Dunford — le architetture di posizionamento multi-prodotto. Stile coerente con la serie deep-dive (palette calda).
 
-**Reference (non clonata)**: April Dunford — le architetture di posizionamento multi-prodotto. Esempi tutti tech (Atlassian, Salesforce, Google, Alphabet). Stile coerente con la serie deep-dive (palette calda).
-
-**Note qualitative**: *(da compilare dopo render — verificare densità della card ② col testo lungo e leggibilità del mini-fork in ④)*
+**Note qualitative**: *(da compilare dopo render)*
 
 ---
 
@@ -453,12 +449,12 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 **Funnel**: MoF
 **Formato**: JSX (React artifact), verticale larghezza **1080** altezza auto, veste **bicolore** (blu = percorso, arancio = foglie-architettura, verde/rosso = badge). Sfondo chiaro, senza firma.
 
-**Contenuto sintetico** (cascata sì/no top-to-bottom; ramo che prosegue a SINISTRA, foglia che esce a DESTRA):
+**Contenuto sintetico — v3 2026-07** (cascata sì/no top-to-bottom; ramo che prosegue a SINISTRA, foglia che esce a DESTRA):
 - Kicker "GUIDA PER ARCHITETTURA DI POSIZIONAMENTO" + titolo con frase evidenziata + box-regola ambra ("rispondi dall'alto, solo sì/no")
 - **GATE 0** Prodotto o feature? → No (destra) = STOP (è PACKAGING: tier/add-on/bundle) · Sì (sinistra) = scendi
-- **STEP 1** Quanti prodotti? → Uno = Single product (azienda=prodotto, es. Calendly) + sub-box **Orizzontale** (stesso use case? sì = 1 posizionamento; no = restringi/verticale) · Più di uno = scendi
-- **STEP 2** A chi? → Buyer diversi = **④ Per Segmento** (use case diversi, alternative differenti, posizionamenti separati — la meno comune) · Stesso buyer = scendi
-- **STEP 3** Come li comprano? → ① Ombrello (separati) · ② Lead+Add-on (in sequenza) · ③ Famiglia/Piattaforma (combinati), con Test + Es. (Atlassian/Salesforce/Google)
+- **STEP 1** Quanti prodotti? → Uno = Single product (azienda=prodotto, es. Calendly) + sub-box **Orizzontale** (stesso use case? sì = 1 posizionamento, cambi solo messaging e proof; no = restringi/verticale) · Più di uno = scendi
+- **STEP 2** Come li comprano? (sottotitolo "Stesso cliente: il comportamento d'acquisto decide l'architettura") → ① Ombrello (separati) · ② Lead+Add-on (in sequenza) · ③ Famiglia/Piattaforma (combinati), con Test + Es. (Atlassian / Stripe→Billing,Radar / HubSpot)
+- **v3**: eliminato lo step "A CHI li vendi?" e la foglia ④ Per Segmento (architettura uscita dalla serie, 2026-07); il vecchio Step 3 è diventato Step 2.
 
 **Ruolo nella serie**: tavola gemella della mappa `Architettura-Posizionamento` — ne è la **guida operativa di collocazione** ("A CHI vendi") resa come decision tree. Gate 0 (Positioning vs Packaging) integrato come ingresso.
 
@@ -477,17 +473,61 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 **Formato**: JSX (React artifact), verticale **1080×1300**, palette **calda**, sfondo chiaro, senza firma.
 
 **Contenuto sintetico**:
-- **Masthead/rubrica ripetibile**: H1 "Architetture di Posizionamento" + sottotitolo-domanda + **strip-indice a 5 tab** (Single · Ombrello · Lead+Add-on · Famiglia · Per Segmento) con "① Single" evidenziato → è il device riconoscibile che si ripete su ogni puntata (cambia solo il tab evidenziato).
+- **Masthead/rubrica ripetibile**: H1 "Architetture di Posizionamento" + sottotitolo-domanda + **strip-indice a 4 tab** (Single · Ombrello · Lead+Add-on · Famiglia; "Per Segmento" rimossa 2026-07) con "① Single" evidenziato → è il device riconoscibile che si ripete su ogni puntata (cambia solo il tab evidenziato).
 - **Hero box**: "Single Product Positioning · azienda = prodotto" → diagramma due box "L'azienda = Il prodotto" (rivisitazione del "Single Product Company Positioning" di Dunford/productify, rinominato) + "un solo posizionamento".
 - **4 esempi (2×2) fase iniziale**: Loom (video/screen recording async) · Miro (whiteboard online) · Figma (design collaborativo) · Typeform (form conversazionali). Ogni card: tile-logo + mini-diagramma "Brand (azienda) = Brand (prodotto)" + descrizione.
 
 **Loghi**: nel `.jsx` = **tile a colore brand + wordmark** (Loom viola #625DF5, Miro giallo #FFD02F, Typeform nero #1A1A1A, Figma multicolor); nel prompt Gemini si chiedono i **loghi veri**.
 
-**Ruolo nella serie**: prima puntata dei deep-dive per-architettura, sotto la mappa `Architettura-Posizionamento`. Le prossime 4 (Ombrello/Lead/Famiglia/Per Segmento) **riusano masthead + strip-indice**.
+**Ruolo nella serie**: prima puntata dei deep-dive per-architettura, sotto la mappa `Architettura-Posizionamento`. Le altre 3 (Ombrello/Lead/Famiglia) **riusano masthead + strip-indice**.
 
 **Reference (non clonata)**: "Single Product Company Positioning" di April Dunford/productify (due box + "="). Rinominata in astratto ("L'azienda = Il prodotto") + esempi tech reali nostri.
 
 **Note qualitative**: *(da compilare dopo render — verificare bilanciamento hero/esempi e leggibilità tile-logo a 1080px)*
+
+---
+
+### Architettura-Ombrello (deep-dive #2 sub-serie)
+**File**: `infografiche/Architettura-Ombrello.jsx` + `Architettura-Ombrello-PROMPT.md`
+**Data**: 2026-07
+**Tema**: Deep-dive #2 — **Ombrello** (standard multi-product): azienda = somma delle capability dei prodotti; un posizionamento per prodotto + ombrello aziendale che li somma; venduti separati, il brand rassicura, non vende la combo.
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale **1080×1300**, palette **calda**, masthead-rubrica con strip a 4 tab ("② Ombrello" evidenziato), senza firma.
+
+**Contenuto sintetico**: hero "azienda = somma delle capability" (box azienda → 3 frecce → 3 box prodotto) + 3 esempi per dimensione: **IBM** (grande, ~$60B) · **Atlassian** (media) · **37signals** (piccola). Loghi Clearbit nel jsx, loghi veri nel prompt.
+
+**Note qualitative**: *(da compilare dopo render)*
+
+---
+
+### Architettura-LeadAddon (deep-dive #3 sub-serie)
+**File**: `infografiche/Architettura-LeadAddon.jsx` + `Architettura-LeadAddon-PROMPT.md`
+**Data**: 2026-07
+**Tema**: Deep-dive #3 — **Lead Product + Add-on**: vendi sempre un prodotto per primo allo stesso cliente; gli add-on arrivano in cross/upsell "i migliori per chi ha già il lead"; posizioni il lead come se fosse l'azienda.
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale **1080×1350**, palette **calda**, masthead-rubrica strip 4 tab ("③ Lead+Add-on" evidenziato), senza firma.
+
+**Contenuto sintetico**: hero "Azienda: posizioni il lead come l'azienda" → box LEAD prominente → 2 add-on + 3 esempi: **Stripe** (Payments → Billing·Radar·Connect·Issuing·Capital·Tax) · **Ramp** (carta+spend → Bill Pay·Travel·Treasury·Procurement) · **Vanta** (SOC 2 → ISO/HIPAA·Trust Center·Vendor Risk·AI). Liste-prodotto **riverificate via web 2026-07-08** prima del push (tutte confermate).
+
+**Note qualitative**: *(da compilare dopo render)*
+
+---
+
+### Architettura-Famiglia-Piattaforma (deep-dive #4 sub-serie)
+**File**: `infografiche/Architettura-Famiglia-Piattaforma.jsx` + `Architettura-Famiglia-Piattaforma-PROMPT.md`
+**Data**: 2026-07
+**Tema**: Deep-dive #4 (ultima) — **Famiglia / Piattaforma**: più prodotti allo stesso cliente, comprati insieme o in ordine sparso; li posizioni combinati con una narrazione unica e spieghi perché comprarli insieme. La logica è di combinazione: l'integrazione è la differenziazione.
+**Post associato**: *(da collegare)*
+**Funnel**: MoF
+**Formato**: JSX (React artifact), verticale **1080×1350**, palette **calda**, masthead-rubrica strip 4 tab ("④ Famiglia" evidenziato), senza firma.
+
+**Contenuto sintetico**: hero con box "Scopo è dimostrare che il cliente ha un vantaggio comprandoli insieme che separati" → 3 tile-prodotto identiche (porte d'ingresso) → barra **FONDAMENTA COMUNE** (dato condiviso, attach rate come prova) + caption due livelli ("singoli o bundle = pricing & packaging, non positioning" — Dunford) + 3 esempi: **HubSpot** (6 Hub su Smart CRM, verificato live giu 2026) · **Airtable** (App Platform·ProductCentral·Hyperagent·HyperDB) · **Rippling** (HR·IT·Finance Cloud su employee graph) + nota finale ⚠️ sulla parola "piattaforma" (per i buyer è quasi sempre vuota — Dunford).
+
+**Sparring a monte** (sessione 2026-07-06): descrizione concordata con angoli aggiunti — positioning a due livelli, attach rate come prova empirica, buyer più senior, benchmark best-of-breed dentro la condizione. Distinzione da Single Product chiarita (segmentazione descrittiva vs operativa, caso Calendly).
+
+**Note qualitative**: *(da compilare dopo render)*
 
 ---
 
@@ -538,6 +578,27 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 **Reference (non clonata)**: metafora iceberg classica "visible tip vs hidden mass" riadattata al brand system; non è una comparativa cattivo/buon (STYLE-GUIDE Variante A/B) ma una gerarchia di profondità.
 
 **Note qualitative**: *(da compilare dopo render — verificare: leggibilità testo bianco sulle slab blu profonde, che la punta non risulti troppo piccola vs header, wrap delle pill Figma a 1080px, effetto punta-piccola/massa-grande a colpo d'occhio, slab POV/Tesi le più dense)*
+
+---
+
+### Posizionamento-vs-Marketing-Diagnostica (tabella)
+**File**: `infografiche/Posizionamento-vs-Marketing-Diagnostica.jsx`
+**Data**: 2026-07
+**Tema**: Reframe diagnostico — "la maggior parte delle startup NON ha problemi di marketing, ha problemi di POSIZIONAMENTO mascherati da problemi di marketing". Tabella a 3 colonne: SINTOMO → CAUSA (vera) → PROBLEMA DI MARKETING con cui viene confuso.
+**Post associato**: post LinkedIn "Hai un Problema di Posizionamento o di Marketing?" *(post da collegare quando pubblicato)*
+**Funnel**: MoF (companion visual del post)
+**Formato**: JSX (React artifact, **HTML/CSS Grid**, non SVG), verticale 1080×~1700, brand system chiaro, senza firma.
+
+**Contenuto sintetico**:
+- Restyling di una vecchia tabella grezza (look "foglio Excel" grigio/giallo/rosa) → brand system.
+- **Semantica colore colonne** (rende visivo il messaggio del post): SINTOMO = neutro/dark (quello che osservi) · CAUSA = **colonna-eroe arancio #F47B20** (la verità = posizionamento) · PROBLEMA DI MARKETING = **rosso #EF3B2C** (il depistaggio/trappola, testo in corsivo + prefisso ✕).
+- Header punch (claim originale) + riga header colonne colorate + 10 righe in grid + callout scuro finale "Il marketing non crea chiarezza. Amplifica."
+- **Modifiche di contenuto vs immagine originale**: rimossa riga "Riunioni lunghe su quali feature prioritizzare"; sostituita "Trattative di vendita lunghe" → **"La nostra Sales Demo non converte"** (CAUSA: ICP·Pain·Perché sceglierci; problema mkt invariato); aggiunta riga **"Il nostro outbound non funziona"** (CAUSA: ICP largo + messaggio non differenziato; problema mkt: "compriamo un nuovo tool o aggiungiamo più lead"). Le altre 7 righe mantengono la sostanza dell'originale, ripulite tipograficamente.
+- Riga "outbound" coerente con `post-idee/Post-Outbound-Tools-Positioning-Error-2026-05.md` (GIGO trap).
+
+**Reference (non clonata)**: tabella diagnostica sintomo/causa/misdiagnosi riadattata al brand system di Stefano. Non è una comparativa cattivo/buon (STYLE-GUIDE Variante A/B) né una mappa — è un nuovo formato "tabella diagnostica a 3 colonne con colonna-eroe".
+
+**Note qualitative**: *(da compilare dopo render — verificare che le 10 righe respirino a ~1700px, che il testo delle celle vada a capo senza overflow, e che la colonna CAUSA arancio risalti come "risposta" a colpo d'occhio)*
 
 ---
 

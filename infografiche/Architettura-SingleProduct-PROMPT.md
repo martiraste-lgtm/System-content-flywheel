@@ -15,8 +15,8 @@ MASTHEAD (rubrica, in alto):
 - sottotitolo: «Serve a rispondere alla domanda: "Cosa stai posizionando? un prodotto, più prodotti,
   un brand, una piattaforma…?"»
 - linea nera spessa sotto.
-- STRIP-INDICE: 5 pill in fila — "① Single" (evidenziata arancio, testo bianco) · "Ombrello" ·
-  "Lead+Add-on" · "Famiglia" · "Per Segmento" (le altre 4 grigie/outline). È il device-rubrica.
+- STRIP-INDICE: 4 pill in fila — "① Single" (evidenziata arancio, testo bianco) · "Ombrello" ·
+  "Lead+Add-on" · "Famiglia" (le altre 3 grigie/outline). È il device-rubrica.
 
 HERO BOX (grande, quasi tutta la larghezza, bordo arancio):
 - in cima centrato: "Single Product Positioning" + sotto, in arancio, "azienda = prodotto"

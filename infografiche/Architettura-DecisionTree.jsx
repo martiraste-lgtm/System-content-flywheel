@@ -1,6 +1,9 @@
-// Infografica — Decision tree "Come scegliere la giusta architettura di posizionamento" (v2)
+// Infografica — Decision tree "Come scegliere la giusta architettura di posizionamento" (v3)
 // Stile decision-tree alla Estner, veste BICOLORE: blu = percorso/struttura, arancio = foglie-architettura,
 // verde/rosso = badge sì/no, rosso = STOP. Niente pastelli (salmon/peach/cream rimossi).
+// v3: eliminata l'architettura "Per Segmento" (fuori serie, lug 2026) e con lei lo step "A chi li
+// vendi?": il tree è Gate 0 → Step 1 (quanti) → Step 2 (come li comprano → 3 foglie).
+// Esempi allineati alla mappa-indice: Famiglia = HubSpot, Lead+Add-on = Stripe.
 // Cascata top-to-bottom: ogni step → un ramo va a una foglia, l'altro scende. Larghezza 1080, altezza auto.
 
 export default function ArchitetturaDecisionTree() {
@@ -91,7 +94,7 @@ export default function ArchitetturaDecisionTree() {
           <Leaf c={c} kind="leaf" name="🟧 Single product" line="Azienda = prodotto → un solo posizionamento. Es. Calendly.">
             <SubBox c={c}>
               <b>Lo vendi a più segmenti? → stesso use case?</b><br />
-              <span style={{ color: c.green, fontWeight: 800 }}>Sì →</span> ORIZZONTALE: resta 1 posizionamento (cambi solo messaging/esempi).<br />
+              <span style={{ color: c.green, fontWeight: 800 }}>Sì →</span> ORIZZONTALE: resta 1 posizionamento (cambi solo messaging e proof).<br />
               <span style={{ color: c.red, fontWeight: 800 }}>No →</span> use case diversi: restringi o vai verticale.
             </SubBox>
           </Leaf>
@@ -101,31 +104,17 @@ export default function ArchitetturaDecisionTree() {
       <Flow c={c} />
 
       {/* STEP 2 */}
-      <StepCard c={c} label="STEP 2" labelBg={c.blue} title="A CHI li vendi?" />
-      <Branch
-        c={c}
-        cont={{ badge: "Stesso buyer", tone: "path", text: "→ scendi allo Step 3" }}
-        leaf={{ badge: "Buyer diversi", tone: "path", node: (
-          <Leaf c={c} kind="leaf" name="🟧 ④ Per Segmento"
-            line="Use case diversi: ti confrontano con alternative differenti."
-            note="Posizionamenti separati (la meno comune)." noteOrange />
-        ) }}
-      />
-
-      <Flow c={c} />
-
-      {/* STEP 3 */}
-      <StepCard c={c} label="STEP 3" labelBg={c.blue} title="COME li comprano?" question="Il comportamento d'acquisto decide l'architettura." />
+      <StepCard c={c} label="STEP 2" labelBg={c.blue} title="COME li comprano?" question="Stesso cliente: il comportamento d'acquisto decide l'architettura." />
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, marginTop: 12 }}>
         <Leaf c={c} kind="leaf" small tag="Separati" name="① Ombrello"
           line="1 posizionamento per prodotto + ombrello che somma. L'azienda rassicura, non vende la combo."
           test="Lo comprerebbe anche senza gli altri?" es="Atlassian" />
         <Leaf c={c} kind="leaf" small tag="In sequenza" name="② Lead + Add-on"
           line="Posizioni il lead come l'azienda; add-on «i migliori per chi ha già il lead»."
-          test="C'è un cavallo di Troia che entra per primo?" es="Salesforce → Marketing Cloud" />
+          test="C'è un cavallo di Troia che entra per primo?" es="Stripe → Billing, Radar" />
         <Leaf c={c} kind="leaf" small tag="Combinati" name="③ Famiglia / Piattaforma"
           line="Master brand + value prop di sistema."
-          test="«Meglio insieme» è vero e dimostrabile? ⚠️ «piattaforma» è abusata." es="Google" />
+          test="«Meglio insieme» è vero e dimostrabile? ⚠️ «piattaforma» è abusata." es="HubSpot: Marketing · Sales · Service Hub" />
       </div>
     </div>
   );

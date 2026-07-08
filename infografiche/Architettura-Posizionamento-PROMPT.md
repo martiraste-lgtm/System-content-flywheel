@@ -1,21 +1,22 @@
 # Prompt per tool AI esterni (Gemini / Banana / Midjourney)
 
-Infografica "mappa-indice" delle architetture di posizionamento (Dunford). È l'indice sopra alla serie
-di deep-dive già esistenti (Prodotto-Singolo, Multi-Prodotto-Separati=Ombrello, Lead-Product-AddOn,
-Famiglia-Piattaforma). Palette calda coerente con quella serie. Finisce alle 4 architetture.
+Infografica "mappa-indice" delle architetture di posizionamento (Dunford) — v2 semplificata.
+È l'indice sopra alla serie di deep-dive (Single Product, Ombrello, Lead+Add-on,
+Famiglia/Piattaforma). "Per Segmento" eliminata dalla serie. Layout verticale: Single a tutta
+riga → Multi product (banda arancio) → 3 architetture affiancate. Palette calda coerente.
 
 ---
 
 ```
 TITOLO: "Architetture di Posizionamento" — sottotitolo «Serve a rispondere alla domanda: "Cosa stai
   posizionando? un prodotto, più prodotti, un brand, una piattaforma…?"»
-FORMATO: Verticale 1080×1560px, alta risoluzione, sfondo CHIARO (#F8F8F8).
+FORMATO: Verticale 1080×1350px, alta risoluzione, sfondo CHIARO (#F8F8F8).
 STILE: Infografica editoriale pulita, font sans-serif (Inter), box/card QUADRATI arrotondati con ombra
   leggera (mai cerchi). Palette CALDA: salmon/peach/cream + arancio accento. Niente gradienti complessi,
   alto respiro, leggibile a colpo d'occhio. È una MAPPA/tassonomia, non un confronto buono/cattivo.
   Regola copy: niente trattini lunghi "—" (usa ":", ",", "·", "→").
 
-LAYOUT (dall'alto):
+LAYOUT (dall'alto, tutto in verticale):
 
 HEADER:
 - H1 "Architetture di Posizionamento" (parola "Posizionamento" in arancione)
@@ -23,14 +24,22 @@ HEADER:
   un brand, una piattaforma…?"»
 - linea nera spessa sotto.
 
-SPLIT MACRO — due box affiancati:
-- SINGLE PRODUCT (box chiaro): esempio concreto "📅 Calendly" etichettato "azienda = prodotto" +
-  "Un solo prodotto: l'azienda È il prodotto → un solo posizionamento." (niente pillole astratte)
-- MULTI PRODUCT (box ARANCIO PIENO #F47B20, testo bianco — NON nero): "Più prodotti, possibilità
-  diverse. La struttura dipende da come e a chi li vendi → 4 architetture ↓"
+RIGA 1 — SINGLE PRODUCT (card bianca a TUTTA LARGHEZZA, orizzontale):
+- a sinistra un chip evidenziato (fondo salmon, bordo arancio): "📅 Calendly" + sotto "azienda = prodotto"
+- a destra: etichetta "SINGLE PRODUCT" + testo "Un solo prodotto: l'azienda È il prodotto → un solo
+  posizionamento. Anche se lo vendi a settori diversi, resta uno."
 
-LE 4 ARCHITETTURE MULTI-PRODUCT (label sezione + griglia 2×2). Ogni card:
-header colorato con [numero] + [icona] + [Nome] + pill tag-logica a destra; corpo con "QUANDO" (1 riga)
+CONNETTORE: riga centrata "Hai più di un prodotto? ↓" (freccia arancio)
+
+RIGA 2 — MULTI PRODUCT (banda ARANCIO PIENO #F47B20 a TUTTA LARGHEZZA, testo bianco — NON nero):
+- a sinistra: etichetta "MULTI PRODUCT" + titolo "Più prodotti, possibilità diverse"
+- a destra (separato da linea verticale sottile bianca): "La struttura dipende da come e a chi li
+  vendi → 3 architetture ↓"
+
+CONNETTORI: 3 linee arancio che scendono dalla banda verso le 3 card sotto.
+
+RIGA 3 — LE 3 ARCHITETTURE MULTI-PRODUCT (3 card AFFIANCATE, stessa altezza). Ogni card:
+header colorato con [numero] + [icona] + [Nome] + pill tag-logica; corpo con "QUANDO" (1-2 righe)
 + box scuro "TEST SECCO" (riga evidenziata) + "Es." in fondo.
 
   ① OMBRELLO — tag "Aggregazione" (header salmon, ☂️)
@@ -42,37 +51,31 @@ header colorato con [numero] + [icona] + [Nome] + pill tag-logica a destra; corp
      QUANDO: Vendi sempre un prodotto per primo; gli altri arrivano in cross sell e upsell perché
        sono la migliore soluzione se hai quel lead product.
      TEST SECCO: C'è un prodotto-cavallo-di-Troia che entra quasi sempre per primo?
-     Es. Salesforce: Marketing Cloud, «il migliore per chi ha il CRM»
+     Es. Stripe: Billing · Radar, «i migliori per chi già incassa con Stripe»
 
   ③ FAMIGLIA / PIATTAFORMA — tag "Combinazione" (header cream, 🧩)
      QUANDO: Stesso cliente, più prodotti: il valore è che stanno insieme (integrazione).
      TEST SECCO: «Meglio insieme» è vero e dimostrabile? ⚠️ «piattaforma» è abusata.
-     Es. Google: Maps · Drive · Docs
-
-  ④ PER SEGMENTO — tag "Buyer diversi" (header soft rose, 🎯)
-     QUANDO: Vendi a clienti diversi (es. banche vs sviluppatori): posizionamenti separati obbligatori.
-     TEST SECCO (con mini-fork): La reputazione trasferisce da un mercato all'altro?
-        Sì → ombrello aziendale   ·   No → brand separati
-     Es. Alphabet: Google · Waymo · Verily (house of brands)
+     Es. HubSpot: Marketing · Sales · Service Hub
 
 PALETTE (sfondo chiaro):
 - Sfondo #F8F8F8 · card #FFFFFF · linee #E5E5E5 · testo #2D2D2D / corpo #555555
-- Tinte header card: salmon #FDE0D8 (①), peach #FDE8C8 (②), cream #FDF5D0 (③), soft rose #FBE2D9 (④)
-- Accento arancio #F47B20 (parola titolo, tag, label "Quando"/"Test secco")
-- Box "Multi product": fondo ARANCIO #F47B20, testo bianco. Box "Test secco" interni alle card:
-  fondo antracite #2D2D2D, testo bianco
-- Fork card ④: ramo Sì verde (#A3E635), ramo No rosso-chiaro (#F9A8A0)
+- Tinte header card: salmon #FDE0D8 (①), peach #FDE8C8 (②), cream #FDF5D0 (③)
+- Accento arancio #F47B20 (parola titolo, tag, label "Quando"/"Test secco", frecce)
+- Banda "Multi product": fondo ARANCIO #F47B20, testo bianco. Box "Test secco" interni alle card:
+  fondo antracite #2D2D2D, testo bianco. Chip Calendly: fondo salmon, bordo arancio.
 
 TIPOGRAFIA:
 - H1 ~42px 900; sottotitolo ~20px 600
-- Nome architettura ~19px 900; numero ~22px 900; tag pill ~11px 900 maiuscolo
+- Nome architettura ~17px 900; numero ~21px 900; tag pill ~11px 900 maiuscolo
 - label "QUANDO"/"TEST SECCO" ~11px 900 maiuscolo arancio; testo card ~13.5px
 - Es. ~12.5px
 
 ELEMENTI GRAFICI:
-- Tutte le card quadrate arrotondate con ombra leggera, header colorato (tinta calda), pill tag a destra.
+- Struttura a CASCATA verticale: Single (riga intera) → freccia → banda Multi arancio (riga intera)
+  → 3 linee → 3 card affiancate. L'asimmetria racconta la storia: un prodotto = semplice,
+  più prodotti = si apre in 3 strade.
 - "Test secco" = box scuro evidenziato dentro ogni card (è la domanda decisiva).
-- Card ④ ha un mini-fork a 2 rami (Sì/No) dentro il box scuro.
-- Asimmetria voluta: Single = un box semplice; Multi = si espande nelle 4 card.
+- SOLO 3 architetture multi-product. NON esiste una card "Per Segmento".
 - Nessuna firma, nessun logo. Coerente con la serie deep-dive (stessa palette calda).
 ```

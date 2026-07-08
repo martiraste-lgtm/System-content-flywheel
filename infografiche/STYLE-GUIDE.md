@@ -43,9 +43,10 @@ Ricorda la struttura della reference **Fletch** ("Bad vs Good") ma **non la copi
 ### Rubrica ripetibile (sub-serie "Architetture di Posizionamento")
 I deep-dive per-architettura condividono un **masthead-rubrica** riconoscibile: H1 "Architetture di
 **Posizionamento**" (Posizionamento arancione) + sottotitolo-domanda + linea nera + **strip-indice a
-5 pill** (Single · Ombrello · Lead+Add-on · Famiglia · Per Segmento) con la puntata corrente
-evidenziata in arancio. Riusalo identico su ogni puntata, cambia solo la pill attiva. Implementazione
-di riferimento: `Architettura-SingleProduct.jsx` (deep-dive #1).
+4 pill** (Single · Ombrello · Lead+Add-on · Famiglia) con la puntata corrente evidenziata in arancio.
+"Per Segmento" è stata eliminata dalla serie (lug 2026: confondeva; le 3 casistiche multi-product
+coprono la maggior parte dei casi). Riusalo identico su ogni puntata, cambia solo la pill attiva.
+Implementazione di riferimento: `Architettura-SingleProduct.jsx` (deep-dive #1).
 
 Le due tavole comparative formano una **serie**: fase Tesi (0→1/10k, Variante B) → fase Posizionamento
 (1k→30/50k, Variante A). Insight comune: errore *chiudi troppo presto* vs *non chiudi mai*.

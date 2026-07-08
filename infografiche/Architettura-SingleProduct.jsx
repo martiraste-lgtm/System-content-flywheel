@@ -1,5 +1,5 @@
 // Infografica — Deep-dive #1 della sub-serie "Architetture di Posizionamento": SINGLE PRODUCT.
-// Masthead/rubrica ripetibile (header + strip-indice 5 tab) + hero "azienda = prodotto" + 4 esempi.
+// Masthead/rubrica ripetibile (header + strip-indice 4 tab) + hero "azienda = prodotto" + 4 esempi.
 // Palette calda coerente con la serie architetture. Verticale 1080×~1300, sfondo chiaro.
 // NB loghi: tile a colore brand + wordmark (nel render Gemini si chiedono i loghi veri).
 
@@ -19,7 +19,7 @@ export default function ArchitetturaSingleProduct() {
   };
   const font = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
 
-  const tabs = ["Single", "Ombrello", "Lead+Add-on", "Famiglia", "Per Segmento"];
+  const tabs = ["Single", "Ombrello", "Lead+Add-on", "Famiglia"];
 
   const examples = [
     { name: "Loom", desc: "video/screen recording async", logoBg: "#625DF5", logoFg: c.white, mark: "L" },

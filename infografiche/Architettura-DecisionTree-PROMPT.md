@@ -34,22 +34,22 @@ GATE 0 — "Prodotto o feature?" (etichetta ambra)
 STEP 1 — "Quanti prodotti veri hai?" (etichetta blu)
   · ramo "Uno" → foglia ARANCIO "Single product · Azienda = prodotto → un solo posizionamento
     (es. Calendly)" con SUB-BOX tratteggiato: "Lo vendi a più segmenti? → stesso use case?
-    Sì → ORIZZONTALE (1 posizionamento, cambi solo messaging) · No → use case diversi: restringi
-    o vai verticale."
+    Sì → ORIZZONTALE (1 posizionamento, cambi solo messaging e proof) · No → use case diversi:
+    restringi o vai verticale."
   · ramo "Più di uno" → box blu "scendi allo Step 2".
 
-STEP 2 — "A CHI li vendi?" (etichetta blu)
-  · ramo "Buyer diversi" → foglia ARANCIO "④ Per Segmento · Use case diversi: ti confrontano con
-    alternative differenti." + riga arancione "Posizionamenti separati (la meno comune)."
-  · ramo "Stesso buyer" → box blu "scendi allo Step 3".
-
-STEP 3 — "COME li comprano?" (etichetta blu) → 3 foglie ARANCIO affiancate, ognuna con tag + Test + Es.:
+STEP 2 — "COME li comprano?" (etichetta blu; sotto il titolo: "Stesso cliente: il comportamento
+d'acquisto decide l'architettura.") → 3 foglie ARANCIO affiancate, ognuna con tag + Test + Es.:
   · tag "Separati" → "① Ombrello": 1 posizionamento per prodotto + ombrello che somma; l'azienda
     rassicura, non vende la combo. Test: lo comprerebbe anche senza gli altri? Es. Atlassian
   · tag "In sequenza" → "② Lead + Add-on": posizioni il lead come l'azienda; add-on «i migliori per
-    chi ha già il lead». Test: c'è un cavallo di Troia che entra per primo? Es. Salesforce → Marketing Cloud
+    chi ha già il lead». Test: c'è un cavallo di Troia che entra per primo? Es. Stripe → Billing, Radar
   · tag "Combinati" → "③ Famiglia / Piattaforma": master brand + value prop di sistema. Test:
-    «meglio insieme» è vero e dimostrabile? ⚠️ «piattaforma» abusata. Es. Google
+    «meglio insieme» è vero e dimostrabile? ⚠️ «piattaforma» abusata. Es. HubSpot: Marketing ·
+    Sales · Service Hub
+
+(NON esiste nessuno step "A chi li vendi?" né alcuna foglia "Per Segmento": il tree ha SOLO
+Gate 0 → Step 1 → Step 2.)
 
 (NIENTE striscia/box finale.)
 
@@ -68,6 +68,6 @@ ELEMENTI GRAFICI:
   (arancio) sta a destra.
 - Box-regola ambra centrato e sovrapposto in cima al Gate 0.
 - Sub-box tratteggiati per "Orizzontale" (Step 1).
-- Step 3 = 3 foglie arancio affiancate. Nessuna firma, nessun logo.
+- Step 2 = 3 foglie arancio affiancate. Nessuna firma, nessun logo.
 - Usa la parola BRAND, mai "marchio".
 ```

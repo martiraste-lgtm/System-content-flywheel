@@ -602,6 +602,28 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Tesi-di-Prodotto-3-Step (pillar Tesi, stile guida)
+**File**: `infografiche/Tesi-di-Prodotto-3-Step.jsx` + `Tesi-di-Prodotto-3-Step-PROMPT.md`
+**Data**: 2026-07
+**Tema**: La Tesi di Prodotto in formato guida pratica — cosa è (header + test del rifiuto), come si costruisce (3 mattoni + composizione), come usarla da subito (3 filtri + test del rifiuto).
+**Post associato**: articolo "Guida al Posizionamento — I 3 elementi" (`articoli/Guida-Posizionamento-3-Elementi-2026-07.md`, sezione Tesi di Prodotto) — spoke visual della sezione
+**Funnel**: MoF
+**Formato**: JSX (React artifact), portrait **1080×~1650**, sfondo chiaro lavanda, footer con firma + CTA newsletter
+
+**Contenuto sintetico**:
+- Header: pill "Guida al Posizionamento · Elemento 1" + H1 con "Tesi di Prodotto" evidenziato a chip + definizione + "una tesi che non ha mai ucciso una feature è una tagline"
+- Step 1 "Costruisci i 3 mattoni": tabella 4 colonne (Dimensione | Status Quo | Why It's Broken | POV) × 3 righe (in una frase / domanda chiave / es. Slack) + barra gradiente "Dai FATTI → alla SCOMMESSA"
+- Step 2 "Componi la tesi": tabella campo/compila/es. Slack, 5 righe, riga LA TESI evidenziata con la formula "Crediamo che ___. Per questo costruiamo ___ e NON costruiamo ___"
+- Step 3 "Usala da lunedì": 3 filtri come box numerati + entropia + customer obsessed ≠ customer led + box scuro "IL TEST DEL RIFIUTO" (ultime 5 feature: ne avrebbe uccisa almeno una?)
+
+**Pillar colore — NUOVO**: la Tesi di Prodotto inaugura il **pillar VIOLA** (#7C3AED, con magenta step 2 e indaco step 3). Sistema colore completo: 🟪 Tesi=viola · 🟧 Architetture=arancio/caldo · 🔵 Strategia=blu. Coerente con l'Anatomia (magenta/viola su scuro).
+
+**Reference usata (non clonata)**: layout-guida di Alex Estner "3 Steps to Build your Positioning" (pill, titolo con highlight-chip, step card tintate con tabelle, barra gradiente maturità, footer autore) — struttura ripresa, **palette sostituita** col pillar viola per distintività (decisione esplicita di Stefano: no copia fedele della palette Estner).
+
+**Note qualitative**: render approvato da Stefano (2026-07-13). Coppia concettuale con `Anatomia-Tesi-di-Prodotto` (quella = mappa concettuale dark; questa = guida operativa light).
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

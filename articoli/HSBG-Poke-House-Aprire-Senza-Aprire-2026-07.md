@@ -237,6 +237,16 @@ La terza è quella strutturale, ed è il punto di tutto il pezzo: il fossato di 
 
 Nessuna di queste tre è un errore di gestione dell'ultimo minuto. Sono la conseguenza di una scelta fatta fin dalle prime mosse: controlliamo tutto noi, niente franchising, ci finanziamo l'espansione da soli. Quella scelta li ha resi veloci e coerenti da piccoli. Presenta il conto da grandi.
 
+### Cosa vale davvero un brand
+
+Sotto le tre ragioni ce n'è una sola, ed è quella che conta di più, perché riguarda cosa vale un brand quando lo si mette in un bilancio.
+
+Un brand vale quello che qualcuno è disposto a pagare *in più* per averlo. Il premio sul prezzo, la fedeltà che non scappa al primo concorrente, il desiderio di farne parte. È un valore che non compare tra le immobilizzazioni, ma decide quanto vale l'azienda il giorno in cui la compri o la finanzi.
+
+Poke House ha costruito domanda per un prodotto, non attaccamento a un brand. Un poke buono, comodo, a un prezzo giusto: la gente lo compra, ma non ci si identifica, non paga di più per averlo, non lo difende quando in fondo alla strada ne apre uno uguale. Ottimo valore d'uso, poco valore di appartenenza.
+
+E qui si lega tutto. Un brand a cui la gente vuole appartenere cresce perché è la gente a tirarlo. Un brand che vale solo per quello che fa deve *comprarsi* ogni pezzo di crescita: un locale in più, una catena estera in più, capitale in più. Il significato è la crescita che non devi pagare. Poke House quel significato non l'ha costruito — e una parte di quei 24 milioni è il prezzo della crescita comprata al posto di quella desiderata.
+
 ### Come rimediare: il bivio
 
 La buona notizia è che gli stessi numeri dicono che se ne sono accorti, e hanno già iniziato a muoversi. Uscita dalla Francia decisa. Un nuovo presidente, Martin Brok, uno che ha scalato brand internazionali per mestiere (Sephora, Starbucks, Burger King, Coca-Cola), affiancato da un nuovo direttore finanziario. Un finanziamento dedicato al piano 2024-2027 per rimettere in ordine i conti. E la perdita già più che dimezzata. Tutto questo va nella direzione giusta: fermare le perdite estere e professionalizzare la scala.

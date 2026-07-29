@@ -65,7 +65,7 @@ Caricare tutto porta a context pollution — l'AI infila riferimenti che il pezz
 | Feedback su un mio pezzo | `newsletter-writer` Modalità 3 | `knowledge/foundation/pov.md` + `knowledge/posts/` + `knowledge/hypotheses/active.md` |
 | Estrai insight da un engagement | nessuna skill (workflow in INDEX) | `knowledge/client-intelligence/INDEX.md` |
 | Scrivi Company Teardown | `company-teardown` | `knowledge/companies/` (se esiste) |
-| Radar settimanale contenuti (autori + temi) | `content-radar` | `knowledge/foundation/pov.md` + `content-strategy.md` + `audience.md` + `knowledge/hypotheses/active.md` — output: Google Doc + riga in `radar/log.md` |
+| Radar bisettimanale contenuti (autori + temi) | `content-radar` | `knowledge/foundation/pov.md` + `content-strategy.md` + `audience.md` + `knowledge/hypotheses/active.md` — output: Google Doc + riga in `radar/log.md` |
 
 Le skill stanno in `~/.claude/skills/`. Leggine il SKILL.md prima di invocarle.
 
@@ -83,7 +83,7 @@ Ogni deliverable va salvato nella cartella dedicata al suo tipo. Non mischiarli 
 | Post LinkedIn (già pubblicati) | `post-pubblicati/` | `.md` |
 | Articoli Substack (bozze) | `articoli/` (crea se manca) | `.md` |
 | Company Teardown (rubrica newsletter) | `articoli/` | `.md` |
-| Content Radar (report settimanale) | Google Doc + log in `radar/log.md` | Doc, `.md` |
+| Content Radar (report bisettimanale) | Google Doc + log in `radar/log.md` | Doc, `.md` |
 
 **Workflow post LinkedIn:**
 1. Nascita di un'idea → file in `post-idee/` (anche solo un titolo o un hook)
@@ -140,7 +140,7 @@ Quando edito una bozza e dico "registra i miei edit":
 - **Intelligence → multiple outputs**: una sola estrazione da engagement alimenta articolo + post + carosello E affina il positioning a monte (`foundation/`). Non è un problema di produzione, è distribuzione di intelligence. La review che promuove i pattern in `foundation/` si fa ogni 3-6 mesi: l'evidenza fa emergere, Stefano decide.
 - **Human gate all'outline**: per gli articoli Substack, la revisione umana sta al livello strategico (outline/angle), non al copy-editing. Approvato l'outline, il writer scrive senza re-improvvisare la sostanza.
 
-**Content Radar (regola):** il radar settimanale (`content-radar`, domenica ore 10 o manuale)
+**Content Radar (regola):** il radar bisettimanale (`content-radar`, ogni ~15 giorni o manuale)
 produce report e PROPONE candidati per la knowledge (sezione "Segnali per la knowledge" nel Doc),
 ma **non modifica mai** `references/`, `hypotheses/` o `foundation/` in automatico — la promozione
 la decide Stefano. Il radar committa solo `radar/log.md`.

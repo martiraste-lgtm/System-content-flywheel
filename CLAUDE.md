@@ -66,6 +66,11 @@ Caricare tutto porta a context pollution — l'AI infila riferimenti che il pezz
 | Estrai insight da un engagement | nessuna skill (workflow in INDEX) | `knowledge/client-intelligence/INDEX.md` |
 | Scrivi Company Teardown | `company-teardown` | `knowledge/companies/` (se esiste) |
 | Radar bisettimanale contenuti (autori + temi) | `content-radar` | `knowledge/foundation/pov.md` + `content-strategy.md` + `audience.md` + `knowledge/hypotheses/active.md` — output: Google Doc + riga in `radar/log.md` |
+| Trasforma un numero MarkeThings in Substack Notes | `marketing-ignorante-notes` (skill di progetto) | `marketing-ignorante/knowledge/voce.md` + `ipotesi.md` — **mai `knowledge/foundation/`** (altra pubblicazione, altra voce) |
+
+**Marketing Ignorante è una pubblicazione separata.** Vive in `marketing-ignorante/` e ha voce,
+audience e obiettivi diversi da "da 0 al PMF" — vedi `marketing-ignorante/README.md`. Non caricare
+mai la `foundation/` di questo repo quando ci lavori.
 
 Le skill stanno in `~/.claude/skills/`. Leggine il SKILL.md prima di invocarle.
 

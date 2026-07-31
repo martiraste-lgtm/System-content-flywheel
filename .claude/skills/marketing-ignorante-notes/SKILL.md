@@ -95,11 +95,21 @@ Se due blocchi chiedono lo stesso formato, tieni il più forte e cambia formato 
 
 ### Step 4 — Scrittura
 
-Voce da `voce.md`: **mai "noi"** (narratore invisibile in terza persona + "tu" diretto solo nel
-finale — registro diverso dalla newsletter), frasi cortissime, a capo frequenti, "perché" come
-apertura di frase per spiegare il meccanismo, connettivi da parlato (Eppure, Però, Invece, Infatti,
-Insomma, Chiaro) per rompere la linearità, zero gergo da consulente, numeri veri o niente — con
-fonte nominata quando c'è, nessun nome di framework o di autore-guru nel testo.
+Voce da `voce.md`: **mai "noi"** salvo la frase di posizione in F3 (narratore invisibile in terza
+persona + "tu" diretto altrove — registro diverso dalla newsletter), frasi cortissime, a capo
+frequenti, "perché" come apertura di frase per spiegare il meccanismo, connettivi da parlato
+(Eppure, Però, Invece, Infatti, Insomma, Chiaro) per rompere la linearità, zero gergo da
+consulente, numeri veri o niente — con fonte nominata quando c'è, nessun nome di framework o di
+autore-guru nel testo.
+
+**Regole confermate da editing diretto (3 Note corrette da Stefano, agosto 2026) — controllale
+prima di consegnare l'output:**
+- Mai liste a tre elementi. Due, o una clausola con "e"
+- Mai "Non è X. È Y." su due frasi. Un contrasto sta dentro una frase sola con "ma"
+- Virgole e frasi fluide, non trattini medi (—) per isolare un inciso
+- Copy reale tra virgolette, mai parafrasato, quando la newsletter lo riporta
+- Un'idea non si rispiega in una seconda frase — una coda con "e" nella stessa frase va bene, una
+  seconda frase che dice la stessa cosa in altre parole no
 
 Per ogni Note:
 - **Prima riga autonoma.** È l'unica cosa che il feed garantisce. Non un titolo: già il contenuto
@@ -195,9 +205,14 @@ una quota: riempirlo con materiale debole è il modo più veloce per abituare il
 **"Suona come Stefano su LinkedIn."** Hai caricato `knowledge/foundation/`. Ricomincia leggendo solo
 i quattro file elencati sopra.
 
-**"Suona istituzionale, da comunicato stampa."** Hai usato "noi"/"ci"/"abbiamo". Nelle Note non si
-usa mai, nemmeno per dichiarare una posizione in F3 — vedi `voce.md`, sezione "Chi parla". È il
-registro della newsletter, non quello del feed.
+**"Suona istituzionale, da comunicato stampa."** Hai usato "noi"/"ci"/"abbiamo" fuori dalla frase
+di posizione di F3 — vedi `voce.md`, sezione "Chi parla". È il registro della newsletter, non
+quello del feed.
+
+**"Suona ancora da AI nonostante tutto."** Controlla tre cose prima di tutto: una lista di tre
+elementi da accorciare a due, un "Non è X. È Y." su due frasi da fondere con "ma", un trattino
+medio da sciogliere in una virgola. Sono i tre tell più ricorrenti trovati editando le Note reali
+— vedi `voce.md`, sezione "Marcatori confermati da editing diretto".
 
 **"La Note polarizzante mi sembra rischiosa."** F3 richiede che i due lati siano dati onestamente. Se
 il rischio resta, il problema è la tesi, non il formato — cambia blocco. Ma una testata che promette

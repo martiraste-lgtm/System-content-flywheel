@@ -8,9 +8,15 @@ li applica dichiarandolo nell'output.
 
 **Nota (agosto 2026):** gli "esempi di impianto" qui sotto sono testi illustrativi ricostruiti a
 partire dai numeri reali, non citazioni verbatim di Note già pubblicate (non ne esistono ancora).
-L'esempio F3 conteneva in origine un "noi pensiamo" incoerente con il registro confermato sulle
-caption Instagram — corretto. Vedi `marketing-ignorante/knowledge/voce.md`, sezione "Chi parla",
-per la regola: **nelle Note non si usa mai "noi"**, a differenza della newsletter.
+Vedi `marketing-ignorante/knowledge/voce.md`, sezione "Chi parla": **nelle Note non si usa mai
+"noi"**, a differenza della newsletter — eccetto la frase di posizione in F3 (1 esempio confermato
+da editing diretto, vedi F3 qui sotto).
+
+**Aggiornamento dopo 3 Note corrette da Stefano (Sourmilk, Editoriale, Goodwipes):** confermati come
+regole — mai liste a tre, mai "Non è X. È Y." su due frasi, virgole invece di trattini medi, copy
+reale tra virgolette invece di parafrasato. Dettaglio completo in `voce.md`, sezione "Marcatori
+confermati da editing diretto". Gli esempi qui sotto sono stati aggiornati di conseguenza dove
+li violavano.
 
 **Regola comune a tutti:** la prima riga deve funzionare da sola, senza la seconda. Nel feed è
 l'unica cosa garantita che il lettore vede. Non è un titolo — è già il contenuto.
@@ -43,15 +49,17 @@ Il formato principale. Estrae la regola trasferibile e usa il fatto come prova.
 
 **Variante B — chiusura ad affermazione invece di domanda.** 🟡 non ancora provata da MI, vista
 nelle Note di riferimento di altri autori (H5 in `ipotesi.md`). Si usa quando il meccanismo è già
-la battuta e una domanda in più lo indebolirebbe:
+la battuta e una domanda in più lo indebolirebbe. **Attenzione:** non chiudere con un'antitesi a
+due frasi tipo "Non è X. È Y." — è un tell da AI confermato su editing diretto, vedi `voce.md`.
+Un'affermazione sola, non una coppia:
 
 > Bayer non ha aggiunto un messaggio sull'ictus.
 > Ha reso visibile una cosa che c'era già.
 >
-> Maschere costruite con i sopravvissuti: metà volto intatto, metà colpita. Quello che i medici non
-> registravano come urgente diventa una faccia che guardi.
+> Maschere fatte con chi l'ictus lo ha vissuto per davvero: metà volto intatto, metà colpita. È il
+> facial droop, il sintomo che due medici su cinque, dice Bayer, non trattano ancora come urgente.
 >
-> Non è una campagna di sensibilizzazione. È un problema che smette di essere invisibile.
+> Perché quando guardi una cosa in faccia, non puoi più far finta di non vederla.
 
 ---
 
@@ -64,10 +72,9 @@ la battuta e una domanda in più lo indebolirebbe:
 **Esempio di impianto** (da #129, Lactantia):
 > Esiste un gilet che ti fa il burro mentre corri.
 >
-> Contenitore isolato, una sfera che zangola la panna con il movimento, e le tasche per il coltello e
-> il pane. Edizione limitata, Canada.
+> Contenitore isolato, una sfera che zangola la panna con il movimento. Edizione limitata, Canada.
 >
-> Non è un prodotto. È il budget media speso in forma di oggetto.
+> Non è un prodotto, ma il budget media speso in forma di oggetto.
 
 **Quando NON usarlo:** se l'assurdità è tutto quello che c'è. Serve la riga che spiega la mossa, altrimenti è un post da pagina di curiosità.
 
@@ -87,11 +94,11 @@ Il formato che, se H1 regge, porta più distribuzione: il feed premia il disacco
 > Da una parte: doppiatori e attori tutelati, e la comunicazione pubblica che resta credibile.
 > Dall'altra: lo Stato che si vieta uno strumento mentre chiede a tutti gli altri di innovare.
 >
-> La credibilità vale il costo. Ma si capisce benissimo chi la vede come una difesa di categoria.
+> Noi la pensiamo così: la credibilità vale il costo.
 >
-> Tu da che parte stai?
+> Tu la vedi allo stesso modo, o pensi che lo Stato si stia solo proteggendo?
 
-**Vincolo:** i due lati vanno dati onestamente. Una finta obiezione smontata in mezza riga si vede, e brucia credibilità in una firma che promette di "dire le cose come stanno". La presa di posizione resta impersonale — "la credibilità vale il costo", non "noi crediamo che" — coerente con `voce.md`: nelle Note non si usa mai "noi", nemmeno per dichiarare un'opinione.
+**Vincolo:** i due lati vanno dati onestamente. Una finta obiezione smontata in mezza riga si vede, e brucia credibilità in una firma che promette di "dire le cose come stanno". **"Noi" compare solo qui, nella frase di posizione** — 1 esempio confermato da editing diretto di Stefano, vedi `voce.md`. Resta vietato nel resto della Note (setup, i due lati) e in tutti gli altri formati.
 
 ---
 
@@ -104,10 +111,11 @@ Il formato che, se H1 regge, porta più distribuzione: il feed premia il disacco
 **Esempio di impianto** (da #131, Sourmilk):
 > L'account personale della fondatrice ha il doppio dei follower del brand.
 >
-> Stesso prodotto, stessa azienda, stesso budget. Da una parte uno yogurt. Dall'altra una persona che
-> pubblica i dietro le quinte, lascia i typo e mette il suo numero di telefono per i feedback.
+> Parlano dello stesso yogurt, della stessa azienda e hanno grosso modo lo stesso budget. Da una
+> parte i post prodotto. Dall'altra una persona che pubblica i dietro le quinte e mette il suo
+> numero di telefono per i feedback.
 >
-> Nessuno segue uno yogurt.
+> Perché alla fine nessuno segue uno yogurt.
 
 **Vincolo:** numeri veri, e mai confondere valutazione e fatturato — è già una regola di voce della testata.
 
@@ -121,10 +129,10 @@ Mai "ecco un tool utile".
 **Quando:** blocco risorsa. Ricorda che a volte è un libro, non un tool.
 
 **Esempio di impianto** (da #131, Trigger):
-> Analizzare un profilo Instagram guardando solo le metriche è come giudicare un negozio contando chi passa davanti.
+> Se guardi un profilo Instagram solo dai numeri, stai giudicando un negozio contando chi ci passa davanti.
 >
-> Trigger è un tool italiano che legge il profilo con una lente psicologica: strategia, contenuti che
-> tengono, hook, dove stai perdendo.
+> Trigger, tool italiano, lo legge con una lente psicologica invece che con le metriche: hook che
+> funzionano, dove stai perdendo attenzione.
 >
 > Ci metti dentro il tuo account e ti dice cosa stai comunicando davvero, non quanto.
 

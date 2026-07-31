@@ -39,10 +39,13 @@ suona da comunicato stampa — è probabilmente una delle cause per cui le Note 
 "sentivano da AI". **Una Note non annuncia mai chi parla. Racconta e basta, poi si rivolge
 al lettore.**
 
-Quando una Note deve prendere posizione (formato F3, vedi `formati-note.md`), la posizione
-si dichiara come affermazione impersonale — l'italiano lo permette senza pronome — non come
-"noi pensiamo che...". Es.: *"La credibilità vale il costo."*, non *"Noi pensiamo che la
-credibilità valga il costo."* Stessa presa di posizione, zero istituzionalità.
+**Eccezione osservata (1 esempio, non ancora 3 — segnare se si ripete): "noi" torna in F3,
+solo nella frase di posizione.** Editando una Note sull'editoriale della standardizzazione
+grafica, Stefano ha scritto di suo pugno "Ma noi la vediamo in modo differente..." esattamente
+nel punto in cui la testata giudica, non dove racconta. Coerente con la promessa "diciamo le
+cose come stanno": un giudizio ha bisogno di un soggetto che lo pronuncia. Il resto della regola
+non cambia — "noi" resta vietato in F1, F2, F4, F5, e nel resto di F3 (setup, i due lati).
+Es. F3: *"Da una parte X. Dall'altra Y. Noi la pensiamo così: [posizione]. Tu invece?"*
 
 ## Chi legge
 
@@ -101,6 +104,40 @@ Il contrasto piccolo/grande è il filo. Nelle Notes affiora in una riga, non in 
   (persona, testata) rende il fatto più credibile e meno "media di internet" — è uno dei marcatori
   più forti nelle Note di riferimento lette per calibrare questo file: nominare chi ha scritto o
   detto una cosa, non solo cosa dice
+
+## Marcatori confermati da editing diretto (agosto 2026 — 3 Note corrette da Stefano: Sourmilk, Editoriale, Goodwipes)
+
+Queste non sono più ipotesi: si sono ripetute su 3 correzioni indipendenti, soglia del sistema
+per passare da 🟡 a regola.
+
+- **Mai liste a tre.** Ogni tricolon che ho scritto ("stesso yogurt, stessa azienda, stesso
+  budget"; "costa poco, si vede subito, funziona per entrambi") è stato accorciato a due elementi
+  o sciolto in una clausola con "e". La lista di tre pulita è il tell più ricorrente di tutti.
+- **Un'idea, una frase. Non ripeterla in una seconda frase che la rispiega.** "Perché nessuno
+  segue uno yogurt. Si segue una persona che, per missione, lo vende." → tagliata la seconda
+  frase, resta solo la prima. Una coda nella *stessa* frase via "e" è invece ammessa
+  ("...e comunicano allo stesso modo").
+- **Niente "Non è X. È Y." su due frasi separate.** È un'antitesi troppo pulita — classico tell.
+  Se serve un contrasto, va dentro una frase sola con "ma": "È un prodotto di cui nessuno
+  vorrebbe parlare, ma è anche l'unica cosa che ti obbliga a fermarti."
+- **Virgole e frasi fluide, non trattini medi.** L'em-dash per isolare un inciso è un tic da testo
+  editato al computer. Nelle Note corrette non compare mai: l'inciso sta dentro virgole, dentro
+  un flusso quasi run-on.
+- **Il copy reale si cita tra virgolette, non si parafrasa.** "Scent sational butt wipes" resta
+  in inglese e tra virgolette, non diventa "vieni a farti un'annusata" (che era una mia parafrasi).
+- **Apertura situazionale, quando c'è.** "Quando apri Instagram ti accorgi che..." aggancia un
+  momento reale del lettore prima del fatto — coerente con l'apertura di alcune caption ("Quante
+  volte scrivi una parola male su Google..."). Non va forzata su ogni Note: è una delle aperture
+  possibili, non la sola.
+- **Punteggiatura informale tollerata, non va "corretta".** "E'" per "È", "perchè" senza accento:
+  segno che il testo non passa da un editor ossessivo. Non significa scriverli apposta — significa
+  non ripulirli se capitano, e non costruire prosa artificialmente perfetta.
+
+**In osservazione, 1 esempio (Goodwipes) — da confermare su altre 2:**
+- Verbi viscerali rivolti al lettore quando il formato lo permette: "ti spruzza addosso" invece
+  di "rilascia". Il cartellone fa qualcosa *a te*, non descrive semplicemente se stesso.
+- Punto esclamativo come beat comico o di sorpresa ("Pubblicizza salviette intime!"), mai come
+  entusiasmo da marketing genericο.
 
 ## Cosa non fare
 

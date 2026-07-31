@@ -91,6 +91,27 @@ di essere una variabile e diventa un default.
 
 ---
 
+## H5 — La chiusura ad affermazione funziona quanto (o meglio di) la domanda-specchio
+**Stato:** 🟡 in test · conferme: 0/3
+
+Le 10 caption Instagram chiudono sempre a domanda ("Che ne pensi di questa campagna?"), ma le Note
+di riferimento di altri autori (lette per calibrare `voce.md` ad agosto 2026) spesso chiudono con
+un'affermazione/massima che ricontestualizza il meccanismo ("Il pubblico catturato, prima o poi, si
+libera sempre.") invece di girare la domanda al lettore.
+
+**Perché conta:** la domanda-specchio è l'unico pattern di chiusura che MI ha già validato con
+volume (10/10), ma solo su un canale diverso da Substack (Instagram). Non è detto che il
+comportamento del lettore nel feed di Substack sia lo stesso.
+
+**Come si conferma:** nel log, testare entrambe le chiusure a settimane/Note alterne su F1 (l'unico
+formato dove la variante è stata aggiunta, vedi `formati-note.md`) e confrontare restack e commenti.
+
+**Cosa cambia se è vera:** F1 e F3 smettono di avere la domanda come default e la scelta tra le due
+chiusure diventa un criterio di scrittura esplicito (es. "il meccanismo è già la battuta → affermazione,
+altrimenti → domanda"), non un'alternativa lasciata al caso.
+
+---
+
 ## Da valutare più avanti
 
 - Le Notes con immagine (screenshot della campagna) rendono più di quelle di solo testo?

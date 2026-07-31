@@ -95,13 +95,18 @@ Se due blocchi chiedono lo stesso formato, tieni il più forte e cambia formato 
 
 ### Step 4 — Scrittura
 
-Voce da `voce.md`: plurale redazionale, frasi cortissime, a capo frequenti, zero gergo da consulente,
-numeri veri o niente, nessun nome di framework o di autore-guru nel testo.
+Voce da `voce.md`: **mai "noi"** (narratore invisibile in terza persona + "tu" diretto solo nel
+finale — registro diverso dalla newsletter), frasi cortissime, a capo frequenti, "perché" come
+apertura di frase per spiegare il meccanismo, connettivi da parlato (Eppure, Però, Invece, Infatti,
+Insomma, Chiaro) per rompere la linearità, zero gergo da consulente, numeri veri o niente — con
+fonte nominata quando c'è, nessun nome di framework o di autore-guru nel testo.
 
 Per ogni Note:
 - **Prima riga autonoma.** È l'unica cosa che il feed garantisce. Non un titolo: già il contenuto
 - **Un'idea sola**
-- **Chiusura che non riassume.** La domanda che il lettore si porta sul proprio caso funziona bene
+- **Chiusura che non riassume.** Due varianti, non mescolarle nella stessa Note:
+  domanda-specchio che nomina di nuovo il caso (default, confermata su caption) oppure affermazione/
+  massima quando il meccanismo è già la battuta finale (🟡 ipotesi, vedi H5)
 - **CTA secondo le regole di `formati-note.md`**: la prima Note della settimana non porta link; almeno una nomina la newsletter per nome; nessuna è un annuncio del numero
 
 ### Step 5 — Output
@@ -189,6 +194,10 @@ una quota: riempirlo con materiale debole è il modo più veloce per abituare il
 
 **"Suona come Stefano su LinkedIn."** Hai caricato `knowledge/foundation/`. Ricomincia leggendo solo
 i quattro file elencati sopra.
+
+**"Suona istituzionale, da comunicato stampa."** Hai usato "noi"/"ci"/"abbiamo". Nelle Note non si
+usa mai, nemmeno per dichiarare una posizione in F3 — vedi `voce.md`, sezione "Chi parla". È il
+registro della newsletter, non quello del feed.
 
 **"La Note polarizzante mi sembra rischiosa."** F3 richiede che i due lati siano dati onestamente. Se
 il rischio resta, il problema è la tesi, non il formato — cambia blocco. Ma una testata che promette

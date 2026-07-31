@@ -6,8 +6,19 @@ Cinque formati, derivati dal materiale reale dei numeri #129-#131.
 il log in `marketing-ignorante/knowledge/log.md` li conferma 3 volte. Finché sono ipotesi, la skill
 li applica dichiarandolo nell'output.
 
+**Nota (agosto 2026):** gli "esempi di impianto" qui sotto sono testi illustrativi ricostruiti a
+partire dai numeri reali, non citazioni verbatim di Note già pubblicate (non ne esistono ancora).
+L'esempio F3 conteneva in origine un "noi pensiamo" incoerente con il registro confermato sulle
+caption Instagram — corretto. Vedi `marketing-ignorante/knowledge/voce.md`, sezione "Chi parla",
+per la regola: **nelle Note non si usa mai "noi"**, a differenza della newsletter.
+
 **Regola comune a tutti:** la prima riga deve funzionare da sola, senza la seconda. Nel feed è
 l'unica cosa garantita che il lettore vede. Non è un titolo — è già il contenuto.
+
+**Sulla chiusura:** due varianti valide, non una sola — domanda-specchio (nomina di nuovo il caso)
+o affermazione/massima (ricontestualizza il meccanismo senza chiedere nulla). F2, F4 e F5 qui sotto
+chiudono già ad affermazione; F1 e F3 di default chiudono a domanda ma hanno anche la variante.
+Non mescolare le due chiusure nella stessa Note.
 
 ---
 
@@ -29,6 +40,18 @@ Il formato principale. Estrae la regola trasferibile e usa il fatto come prova.
 > Quante campagne aggiungono un messaggio a un problema che nessuno vede, invece di far vedere il problema?
 
 **Errore da evitare:** partire dal brand. "Bayer ha lanciato una campagna in cui…" è cronaca, e la cronaca senza il numero non regge nel feed.
+
+**Variante B — chiusura ad affermazione invece di domanda.** 🟡 non ancora provata da MI, vista
+nelle Note di riferimento di altri autori (H5 in `ipotesi.md`). Si usa quando il meccanismo è già
+la battuta e una domanda in più lo indebolirebbe:
+
+> Bayer non ha aggiunto un messaggio sull'ictus.
+> Ha reso visibile una cosa che c'era già.
+>
+> Maschere costruite con i sopravvissuti: metà volto intatto, metà colpita. Quello che i medici non
+> registravano come urgente diventa una faccia che guardi.
+>
+> Non è una campagna di sensibilizzazione. È un problema che smette di essere invisibile.
 
 ---
 
@@ -54,7 +77,7 @@ Il formato principale. Estrae la regola trasferibile e usa il fatto come prova.
 
 Il formato che, se H1 regge, porta più distribuzione: il feed premia il disaccordo.
 
-**Struttura:** la questione posta come scelta secca → i due lati, dati entrambi in buona fede → la posizione della testata, dichiarata → invito esplicito al disaccordo.
+**Struttura:** la questione posta come scelta secca → i due lati, dati entrambi in buona fede → la posizione della testata, dichiarata come affermazione impersonale (mai "noi pensiamo") → invito esplicito al disaccordo.
 
 **Quando:** il blocco contiene una tensione reale su cui persone ragionevoli si dividono (#130, circolare RAI; #131, standardizzazione estetica).
 
@@ -64,11 +87,11 @@ Il formato che, se H1 regge, porta più distribuzione: il feed premia il disacco
 > Da una parte: doppiatori e attori tutelati, e la comunicazione pubblica che resta credibile.
 > Dall'altra: lo Stato che si vieta uno strumento mentre chiede a tutti gli altri di innovare.
 >
-> Noi pensiamo che la credibilità valga il costo. Ma capiamo benissimo chi la vede come una difesa di categoria.
+> La credibilità vale il costo. Ma si capisce benissimo chi la vede come una difesa di categoria.
 >
 > Tu da che parte stai?
 
-**Vincolo:** i due lati vanno dati onestamente. Una finta obiezione smontata in mezza riga si vede, e brucia credibilità in una firma che promette di "dire le cose come stanno".
+**Vincolo:** i due lati vanno dati onestamente. Una finta obiezione smontata in mezza riga si vede, e brucia credibilità in una firma che promette di "dire le cose come stanno". La presa di posizione resta impersonale — "la credibilità vale il costo", non "noi crediamo che" — coerente con `voce.md`: nelle Note non si usa mai "noi", nemmeno per dichiarare un'opinione.
 
 ---
 

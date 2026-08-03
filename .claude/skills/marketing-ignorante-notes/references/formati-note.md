@@ -155,12 +155,19 @@ Mai "ecco un tool utile".
 
 ## Lunghezza
 
-Non c'è un limite tecnico noto e non ci sono dati sulla lunghezza ottimale. Criterio di sostanza:
-una Note dice **una** cosa. Se servono tre paragrafi per arrivare al punto, il punto è sbagliato o
-il blocco andava scartato.
+**Regola cambiata (agosto 2026, editando Under Armour su #132).** Non c'è più un tetto implicito
+di 3-5 righe. La lunghezza segue la ricchezza del blocco, non un limite di piattaforma: se la fonte
+ha più beat che reggono da soli (un cast di nomi, un dettaglio comico, una premessa), tagliarli per
+stare corti toglie sostanza. Bayer, Sourmilk e Goodwipes restano corte perché il loro meccanismo
+si dice in poche righe. Under Armour è quasi triplicata rispetto alla prima bozza, con il cast
+nominale e i dettagli della fonte rimessi dentro, e ha chiuso sull'ultima frase del racconto invece
+che su una domanda aggiunta.
 
-Le altezze indicative osservate nell'impianto degli esempi qui sopra — 3-5 righe brevi, mai un muro —
-sono coerenti con la voce della testata (frasi cortissime, a capo frequenti), non con un dato di piattaforma.
+Il criterio resta di sostanza, ma capovolto rispetto a prima: **non tagliare un dettaglio vero della
+fonte solo per accorciare.** Resta vietato invece allungare con elaborazione retorica mia (liste
+inventate, frasi che rispiegano un punto già fatto) — quella non è ricchezza, è riempitivo. Un
+blocco secco (Bayer, Trigger) produce una Note secca; un blocco ricco (Under Armour) può produrre
+una Note ricca.
 
 ---
 

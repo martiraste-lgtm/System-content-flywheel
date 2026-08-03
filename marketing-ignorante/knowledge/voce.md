@@ -110,9 +110,12 @@ Il contrasto piccolo/grande è il filo. Nelle Notes affiora in una riga, non in 
 Queste non sono più ipotesi: si sono ripetute su 3 correzioni indipendenti, soglia del sistema
 per passare da 🟡 a regola.
 
-- **Mai liste a tre.** Ogni tricolon che ho scritto ("stesso yogurt, stessa azienda, stesso
-  budget"; "costa poco, si vede subito, funziona per entrambi") è stato accorciato a due elementi
-  o sciolto in una clausola con "e". La lista di tre pulita è il tell più ricorrente di tutti.
+- **Mai liste a tre — ma solo quelle che invento io.** Ogni tricolon che ho costruito da solo per
+  dare ritmo ("stesso yogurt, stessa azienda, stesso budget"; "costa poco, si vede subito, funziona
+  per entrambi") è stato accorciato. Ma editando SEAT, Stefano ha rimesso a tre un elenco preso
+  quasi verbatim dalla newsletter ("Challenge, trend del momento e format 'ad alto tasso di
+  libidine'"): un'enumerazione fattuale della fonte non è un tell, lo è solo la mia elaborazione
+  retorica per simmetria.
 - **Un'idea, una frase. Non ripeterla in una seconda frase che la rispiega.** "Perché nessuno
   segue uno yogurt. Si segue una persona che, per missione, lo vende." → tagliata la seconda
   frase, resta solo la prima. Una coda nella *stessa* frase via "e" è invece ammessa
@@ -139,6 +142,15 @@ per passare da 🟡 a regola.
 - Punto esclamativo come beat comico o di sorpresa ("Pubblicizza salviette intime!"), mai come
   entusiasmo da marketing genericο.
 
+**In osservazione, 1 esempio (SEAT) — da confermare su altre 2:**
+- **Apertura a cliffhanger.** Invece di rivelare subito il fatto, si apre con la premessa e una
+  domanda sospesa ("Per due settimane, il team social di SEAT è in ferie e qualcuno dovrà pur
+  pubblicare. La soluzione?"), e la rivelazione arriva nel paragrafo dopo. Alternativa
+  all'apertura diretta col fatto, non una sostituzione.
+- **Domande dirette al lettore anche a metà nota, non solo in chiusura.** "Tu li hai visti? Come
+  ti sono sembrati?" spezza il racconto, poi la Note continua verso il suo punto. Prima la regola
+  della domanda-specchio era pensata solo per l'ultima riga.
+
 ## Cosa non fare
 
 - Niente framework in vista. I nomi degli autori (Kinner, Pauwels, Dunford, chiunque) non compaiono mai nel testo pubblicato
@@ -151,17 +163,36 @@ per passare da 🟡 a regola.
 
 ## Adattamento al formato Note
 
-Una Note non è un articolo corto. Tre differenze che contano:
+Una Note non è un articolo corto. Ma non è nemmeno un elevator pitch compresso al massimo — regola
+rivista in agosto 2026, vedi sotto.
 
 1. **La prima riga è tutto.** Nel feed si vede quella. Non è un titolo: è già il contenuto.
-2. **Un'idea sola.** Nella rubrica lunga si costruisce; in una Note si dice una cosa e si esce.
-3. **Il finale non riassume.** Due chiusure valide, non una sola:
-   - **Domanda-specchio** che nomina di nuovo il caso — confermata su tutte le caption Instagram,
-     è la scelta di default.
-   - **Affermazione/massima** che ricontestualizza il meccanismo invece di chiederlo al lettore —
-     vista nelle Note di riferimento di altri autori, mai ancora provata da Marketing Ignorante.
-     Si usa quando il meccanismo *è già* la battuta finale e una domanda in più lo indebolirebbe.
-     Ipotesi 🟡, vedi H5 in `ipotesi.md`.
+2. **Un blocco solo, non necessariamente un'idea sola.** Una Note nasce da un blocco selezionato del
+   numero (una notizia, l'editoriale, una risorsa) e non mescola blocchi diversi. Ma dentro quel
+   blocco, la fedeltà al racconto della fonte vale più della compressione: se la storia ha più beat
+   che funzionano (un cast di nomi, un dettaglio comico, una premessa), tagliarli per stare corti
+   toglie sostanza, non la concentra.
+3. **Il finale non riassume, ma non deve nemmeno inventare per forza qualcosa di nuovo.** Tre
+   chiusure valide:
+   - **Domanda-specchio** che nomina di nuovo il caso — confermata su tutte le caption Instagram, resta
+     la scelta di default quando la Note è compressa (F2, F3, F4 corte).
+   - **Affermazione/massima** che ricontestualizza il meccanismo — a volte è la stessa conclusione
+     della newsletter, ripresa quasi verbatim invece che riscritta: se la fonte chiude già bene,
+     non serve un'aggiunta artificiale.
+   - Su una Note lunga e fedele alla fonte, **chiudere con l'ultima frase del racconto stesso**
+     (nessuna domanda aggiunta) è una terza opzione valida — confermato editando Under Armour.
 
 Regola non negoziabile: **la Note deve reggersi anche se nessuno clicca.** Se il testo ha senso solo
 per chi apre la newsletter, non è una Note, è un annuncio.
+
+### Lunghezza: regola cambiata (agosto 2026)
+
+Non esiste più un tetto implicito di 3-5 righe. La lunghezza segue la ricchezza del blocco scelto,
+non un limite di piattaforma: Bayer, Sourmilk e Goodwipes restano corte perché il loro meccanismo
+si dice in poche righe; Under Armour è quasi triplicata rispetto alla mia prima bozza perché la
+storia (hotel finto, cold plunge, cast nominale, staff nel panico) aveva più beat che reggevano da
+soli, e comprimerli per arrivare a una lunghezza-target toglieva quello che rendeva la storia bella.
+**Criterio: fedeltà al racconto della fonte prima di tutto. Se il blocco è ricco, la Note può essere
+ricca. Se il blocco è secco, la Note resta secca.** Non aggiungere mai elaborazione retorica per
+allungare — quella resta vietata (vedi "Un'idea, una frase" sotto) — ma non tagliare dettagli veri
+della fonte solo per rispettare una lunghezza immaginaria.

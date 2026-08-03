@@ -102,14 +102,21 @@ frequenti, "perché" come apertura di frase per spiegare il meccanismo, connetti
 consulente, numeri veri o niente — con fonte nominata quando c'è, nessun nome di framework o di
 autore-guru nel testo.
 
-**Regole confermate da editing diretto (3 Note corrette da Stefano, agosto 2026) — controllale
-prima di consegnare l'output:**
-- Mai liste a tre elementi. Due, o una clausola con "e"
+**Regole confermate da editing diretto (agosto 2026) — controllale prima di consegnare l'output:**
+- Mai liste a tre **che invento io**. Un'enumerazione fattuale presa quasi verbatim dalla
+  newsletter (nomi, categorie reali) può restare a tre — il tell è la mia elaborazione retorica
+  per simmetria, non l'elenco in sé
 - Mai "Non è X. È Y." su due frasi. Un contrasto sta dentro una frase sola con "ma"
 - Virgole e frasi fluide, non trattini medi (—) per isolare un inciso
 - Copy reale tra virgolette, mai parafrasato, quando la newsletter lo riporta
-- Un'idea non si rispiega in una seconda frase — una coda con "e" nella stessa frase va bene, una
-  seconda frase che dice la stessa cosa in altre parole no
+- Un punto non si rispiega in una seconda frase che dice la stessa cosa in altre parole — una
+  coda con "e" nella stessa frase va bene
+- **Niente tetto di lunghezza.** Non tagliare un dettaglio vero della fonte (nomi, cast, premessa)
+  solo per stare corti. Un blocco ricco può produrre una Note ricca — vedi `formati-note.md`,
+  sezione Lunghezza
+- Apertura a cliffhanger ammessa: premessa + domanda sospesa, rivelazione nel paragrafo dopo,
+  come alternativa all'apertura diretta col fatto
+- Domande dirette al lettore anche a metà Note, non solo in chiusura
 
 Per ogni Note:
 - **Prima riga autonoma.** È l'unica cosa che il feed garantisce. Non un titolo: già il contenuto

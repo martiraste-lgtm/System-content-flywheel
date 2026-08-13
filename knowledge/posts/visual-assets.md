@@ -624,6 +624,48 @@ Serve per costruire coerenza tra contenuti visual e testuali nelle sessioni succ
 
 ---
 
+### Categoria-Prodotto-Giusta-vs-Sbagliata
+**File**: `infografiche/Categoria-Prodotto-Giusta-vs-Sbagliata.jsx` + `Categoria-Prodotto-Giusta-vs-Sbagliata-PROMPT.md`
+**Data**: 2026-07
+**Tema**: La **categoria di prodotto** come frame mentale che il buyer del segmento core ti assegna prima di parlarti — comparativa categoria sbagliata vs giusta + come trovarla + frase di reset del frame.
+**Post associato**: companion del pillar `articoli/Guida-Posizionamento-3-Elementi-2026-07.md` (blocco intro "Il conto che non vedi arrivare" + layer anchor/CHI SONO). *(post LinkedIn da collegare)*
+**Funnel**: ToF/MoF
+**Formato**: JSX (React artifact), verticale **1080 × altezza auto** (~1500), sfondo chiaro, **comparativa rosso/verde** (STYLE-GUIDE Variante B), con footer firma + CTA newsletter.
+
+**Contenuto sintetico**:
+- Header: H1 "Categoria di Prodotto" ("Categoria" in arancio) + sottotitolo "perché è importante — e come capire qual è quella giusta"
+- H2 box arancio: cos'è la categoria nella testa del buyer (scatola mentale che decide confronto/criteri/prezzo al posto tuo)
+- Confronto 2 colonne con **6 righe speculari** (Confronto · Criteri · Prezzo · Esito · Percezione · Ciclo): SBAGLIATA (rosso ✕) vs GIUSTA (verde ✓)
+- Sezione metodo: la domanda ai clienti «Come ci hai descritto quando ci spiegavi al tuo team?» = la tua categoria in pratica
+- Callout scuro: la frase di reset del frame nella prima conversazione (non in difensiva) "…cercava di risolvere [X] e ha scoperto che gli strumenti [Y] tradizionali non erano fatti per questo" + 3 chip
+
+**Colore identità**: layer *anchor/categoria* senza colore-pillar proprio → keyword del titolo in **arancio brand #F47B20** come accento neutro (convenzione comparativa), colonne in rosso/verde canonici.
+
+**Reference (non clonata)**: Alexander Shartsis, "The category you're in is costing you deals you don't know you're losing" (category losses / perdite invisibili). Riletto con la catena di Stefano: la categoria è a valle di tesi + strategia, non la causa — è il sintomo che il buyer vede per ultimo.
+
+**Note qualitative**: *(da compilare dopo render — verificare allineamento delle 6 righe speculari tra le due colonne, che l'altezza auto non lasci gap prima del footer, leggibilità della domanda-cliente grande nel box verde)*
+
+---
+
+### AI-Valuta-Brand-Posizionamento
+**File**: `infografiche/AI-Valuta-Brand-Posizionamento.jsx` + `AI-Valuta-Brand-Posizionamento-PROMPT.md`
+**Data**: 2026-07
+**Tema**: Ricostruzione brandizzata di uno screenshot ChatGPT ("best WordPress hosting for small business") per mostrare **cosa restituisce l'AI** su una categoria — gancio al tema "l'AI valuta il tuo brand, e dipende dal posizionamento".
+**Post associato**: companion di `post-idee/Post-AI-Search-Positioning-Serie-2026-07.md` (angolo AI-search / GEO)
+**Funnel**: ToF/MoF
+**Formato**: JSX (React artifact), **landscape ~1200 × altezza auto**, brand system chiaro, con footer firma + newsletter.
+
+**Contenuto sintetico**:
+- Titolo "Come l'AI valuta il tuo brand — e cosa c'entra il POSIZIONAMENTO" (keyword arancio) + H2 "Cosa restituisce l'AI — e come cambiare quello che scrive sul tuo prodotto"
+- Riproduzione della risposta AI: bolla-domanda (destra) → riga di intro → tabella 4 colonne (Provider / Best for / Pros / Cons) con 5 righe **verbatim** dall'immagine (Hostinger, SiteGround, Rocket.net, Kinsta, WP Engine)
+- Restyling: palette del brand system (bg #F8F8F8, arancio #F47B20 sui nomi Provider e sulla keyword) al posto della UI ChatGPT. Nessun logo/elemento ChatGPT.
+
+**Reference usata**: screenshot ChatGPT fornito da Stefano. Ricreato come grafica editoriale (non clone di UI): stesso contenuto, colori suoi. Titolo + H2 aggiunti; il resto identico all'immagine su richiesta.
+
+**Note qualitative**: *(da compilare dopo render — verificare che la colonna Pros non vada in overflow a 1200px e che le 4 colonne restino leggibili; è l'unica grafica landscape della serie posizionamento)*
+
+---
+
 ## Template per nuovi asset
 
 ```markdown

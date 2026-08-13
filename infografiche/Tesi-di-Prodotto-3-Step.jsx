@@ -79,7 +79,7 @@ const Row = ({ children, tint, radius }) => (
 export default function TesiDiProdotto3Step() {
   return (
     <div style={{
-      width: 1080, minHeight: 1650, background: c.bg, fontFamily: font,
+      width: 1080, minHeight: 1780, background: c.bg, fontFamily: font,
       padding: "42px 46px 30px", boxSizing: "border-box",
       display: "flex", flexDirection: "column",
     }}>
@@ -149,39 +149,53 @@ export default function TesiDiProdotto3Step() {
         </div>
       </Card>
 
-      {/* ============ STEP 2 — COMPONI LA TESI ============ */}
-      <StepBadge n={2} label="Componi la tesi" tint={c.magentaSoft} accent={c.magenta} />
+      {/* ============ STEP 2 — COMPONI LA TESI (formula a 7 righe) ============ */}
+      <StepBadge n={2} label="Componi la tesi — una frase, 7 righe" tint={c.magentaSoft} accent={c.magenta} />
       <Card accent={c.magenta}>
         <Row tint={c.magentaSoft} radius={12}>
-          <Th w={210}>Campo</Th>
+          <Th w={250}>La formula</Th>
           <Th>Compila</Th>
           <Th>Es. — Slack</Th>
         </Row>
         <Row>
-          <Td w={210} strong>🧍 Per chi è vitale</Td>
-          <Td dim>segmento · stage · ruolo ______</Td>
-          <Td>Team che lavorano insieme ogni giorno</Td>
+          <Td w={250} strong>🧍 QUANDO<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.muted }}>ICP: segmento · stage · ruolo</span></Td>
+          <Td dim>un ______ specifico</Td>
+          <Td>un team che lavora insieme ogni giorno</Td>
         </Row>
         <Row>
-          <Td w={210} strong>🧨 Il nemico</Td>
-          <Td dim>strumento · abitudine · mentalità ______</Td>
-          <Td>L'email come comunicazione interna</Td>
+          <Td w={250} strong>🎯 VUOLE<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.muted }}>il job concreto, non aggettivi</span></Td>
+          <Td dim>ottenere ______</Td>
+          <Td>decisioni e contesto accessibili a tutti</Td>
         </Row>
         <Row>
-          <Td w={210} strong>💥 La rottura</Td>
-          <Td dim>perché è urgente cambiare ______</Td>
-          <Td>La conoscenza del team muore nelle caselle personali</Td>
+          <Td w={250} strong>🧨 OGGI DEVE<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.muted }}>status quo — col nemico nominato</span></Td>
+          <Td dim>usare ______</Td>
+          <Td>usare l'email interna</Td>
         </Row>
         <Row>
-          <Td w={210} strong>🌅 La scommessa</Td>
-          <Td dim>il futuro in cui credi ______</Td>
-          <Td>La comunicazione di team vive in canali trasparenti e ricercabili</Td>
+          <Td w={250} strong>💥 ED È INACCETTABILE PERCHÉ<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.muted }}>la rottura, con un costo misurabile</span></Td>
+          <Td dim>______ costa ______</Td>
+          <Td>la conoscenza muore nelle caselle: chi non è in CC non sa, chi arriva dopo non trova</Td>
+        </Row>
+        <Row>
+          <Td w={250} strong>🌅 NOI CREDIAMO CHE<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.muted }}>la scommessa — qualcuno può dirti che sbagli</span></Td>
+          <Td dim>il futuro sarà ______</Td>
+          <Td>il lavoro debba accadere in canali aperti e ricercabili</Td>
+        </Row>
+        <Row>
+          <Td w={250} strong>🧭 PER QUESTO COSTRUIAMO<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.muted }}>il meccanismo distintivo</span></Td>
+          <Td dim>______</Td>
+          <Td>tutto ciò che rende i canali il posto dove il lavoro accade</Td>
         </Row>
         <Row tint={c.magentaSoft} radius={12}>
-          <Td w={210} strong>🧭 LA TESI</Td>
-          <Td strong>"Crediamo che ______. Per questo costruiamo ______ e NON costruiamo ______."</Td>
-          <Td>"Crediamo che il lavoro debba accadere in canali aperti e ricercabili. Per questo costruiamo tutto ciò che rende i canali il posto dove il lavoro accade — e NON caselle private, CC, o un client email migliore."</Td>
+          <Td w={250} strong>🚫 E NON COSTRUIAMO<br /><span style={{ fontWeight: 600, fontSize: 12, color: c.body }}>la clausola di rifiuto</span></Td>
+          <Td strong>______</Td>
+          <Td strong>caselle private, CC, o un client email migliore</Td>
         </Row>
+
+        <p style={{ fontSize: 13.5, fontWeight: 700, fontStyle: "italic", color: c.magenta, margin: "14px 2px 0" }}>
+          Le prime 6 righe raccontano. L'ultima decide: senza il NO, non è una tesi — è una tagline.
+        </p>
       </Card>
 
       {/* ============ STEP 3 — USALA DA LUNEDÌ ============ */}

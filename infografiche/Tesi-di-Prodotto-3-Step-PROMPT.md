@@ -11,7 +11,7 @@ Fonte autorevole del layout: `Tesi-di-Prodotto-3-Step.jsx`.
 
 ```
 TITOLO: "3 Step per costruire la tua Tesi di Prodotto"
-FORMATO: Portrait 1080x1650px (verticale, LinkedIn-friendly)
+FORMATO: Portrait 1080x1780px (verticale, LinkedIn-friendly)
 STILE: Guida editoriale pulita su sfondo chiaro lavanda. Card bianche arrotondate (raggio 22px)
   con bordo sottile e barra superiore colorata. Badge "Step N" a pillola. Tabelle con righe
   separate da linee sottili e header tintato. Niente foto, niente icone disegnate (solo emoji
@@ -50,13 +50,19 @@ Sotto la tabella: barra orizzontale a gradiente da viola chiaro (#EDE4FC) a viol
 con etichetta "Dai FATTI" a sinistra e "alla SCOMMESSA" a destra (parallelo di una scala di maturità).
 
 [STEP 2 — card bianca, barra superiore magenta #C026D3]
-Badge: pillola magenta chiaro "Step 2" + pillola bianca "Componi la tesi"
-TABELLA a 3 colonne (header su sfondo #FAE8FC): | Campo | Compila | Es. — Slack |
-| 🧍 Per chi è vitale | segmento · stage · ruolo ______ | Team che lavorano insieme ogni giorno |
-| 🧨 Il nemico | strumento · abitudine · mentalità ______ | L'email come comunicazione interna |
-| 💥 La rottura | perché è urgente cambiare ______ | La conoscenza del team muore nelle caselle personali |
-| 🌅 La scommessa | il futuro in cui credi ______ | La comunicazione di team vive in canali trasparenti e ricercabili |
-| 🧭 LA TESI (riga evidenziata su sfondo #FAE8FC) | "Crediamo che ______. Per questo costruiamo ______ e NON costruiamo ______." | "Crediamo che il lavoro debba accadere in canali aperti e ricercabili. Per questo costruiamo tutto ciò che rende i canali il posto dove il lavoro accade — e NON caselle private, CC, o un client email migliore." |
+Badge: pillola magenta chiaro "Step 2" + pillola bianca "Componi la tesi — una frase, 7 righe"
+TABELLA a 3 colonne (header su sfondo #FAE8FC): | La formula | Compila | Es. — Slack |
+La prima colonna ha su ogni riga il connettivo in MAIUSCOLO bold + sotto una micro-etichetta grigia.
+Le 7 righe, in ordine (formano UNA frase leggibile dall'alto in basso):
+| 🧍 QUANDO (ICP: segmento · stage · ruolo) | un ______ specifico | un team che lavora insieme ogni giorno |
+| 🎯 VUOLE (il job concreto, non aggettivi) | ottenere ______ | decisioni e contesto accessibili a tutti |
+| 🧨 OGGI DEVE (status quo — col nemico nominato) | usare ______ | usare l'email interna |
+| 💥 ED È INACCETTABILE PERCHÉ (la rottura, con un costo misurabile) | ______ costa ______ | la conoscenza muore nelle caselle: chi non è in CC non sa, chi arriva dopo non trova |
+| 🌅 NOI CREDIAMO CHE (la scommessa — qualcuno può dirti che sbagli) | il futuro sarà ______ | il lavoro debba accadere in canali aperti e ricercabili |
+| 🧭 PER QUESTO COSTRUIAMO (il meccanismo distintivo) | ______ | tutto ciò che rende i canali il posto dove il lavoro accade |
+| 🚫 E NON COSTRUIAMO (la clausola di rifiuto) — RIGA EVIDENZIATA su sfondo #FAE8FC, testo bold | ______ | caselle private, CC, o un client email migliore |
+Sotto la tabella, caption in corsivo magenta bold:
+"Le prime 6 righe raccontano. L'ultima decide: senza il NO, non è una tesi — è una tagline."
 
 [STEP 3 — card bianca, barra superiore indaco #4F46E5]
 Badge: pillola indaco chiaro "Step 3" + pillola bianca "Usala da lunedì: i 3 filtri + il test"

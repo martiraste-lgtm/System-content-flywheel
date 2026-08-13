@@ -61,7 +61,7 @@ export default function TesiPosizionamentoCattivaVsBuona() {
         width: 1080,
         height: 1600,
         margin: "0 auto",
-        padding: "40px 44px 34px",
+        padding: "48px 52px 40px",
         color: c.ink,
         boxSizing: "border-box",
         display: "flex",
@@ -69,14 +69,14 @@ export default function TesiPosizionamentoCattivaVsBuona() {
       }}
     >
       {/* ===== SEZIONE 1 — HEADER ===== */}
-      <div style={{ borderBottom: `3px solid ${c.ink}`, paddingBottom: 16, marginBottom: 18 }}>
-        <h1 style={{ fontSize: 44, fontWeight: 900, margin: 0, lineHeight: 1.05, whiteSpace: "nowrap" }}>
+      <div style={{ borderBottom: `3px solid ${c.ink}`, paddingBottom: 22, marginBottom: 26 }}>
+        <h1 style={{ fontSize: 50, fontWeight: 900, margin: 0, lineHeight: 1.05, whiteSpace: "nowrap" }}>
           <span style={{ color: c.accent }}>Tesi</span> di posizionamento
         </h1>
-        <p style={{ fontSize: 22, color: c.body, margin: "8px 0 0", fontWeight: 600 }}>
+        <p style={{ fontSize: 24, color: c.body, margin: "10px 0 0", fontWeight: 600 }}>
           Da 0€ a 1/10 mila € MRR
         </p>
-        <p style={{ fontSize: 16, color: c.body, margin: "10px 0 0", lineHeight: 1.4 }}>
+        <p style={{ fontSize: 17.5, color: c.body, margin: "12px 0 0", lineHeight: 1.45 }}>
           Prodotto nuovo: non sai in anticipo <b>CHI</b> e <b>COME</b> risponderà meglio alla tua offerta.
           È una prima fase, breve, di <b style={{ color: c.accent }}>CONFUSIONE PROGRAMMATA</b> — la governi, non la subisci.
         </p>
@@ -124,38 +124,38 @@ export default function TesiPosizionamentoCattivaVsBuona() {
       </Tier>
 
       {/* ===== SEZIONE 3 — CATTIVA vs BUONA TESI ===== */}
-      <div style={{ marginTop: 18 }}>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 22 }}>
+      <div style={{ marginTop: 26 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 26 }}>
           <CompareTitle c={c} color={c.bad} a="Cattiva tesi" b="di posizionamento" />
           <CompareTitle c={c} color={c.good} a="Buona tesi" b="di posizionamento" />
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 22, marginTop: 10 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 26, marginTop: 14 }}>
           <CompareList c={c} tone="bad" mark="✕" items={cattiva} />
           <CompareList c={c} tone="good" mark="✓" items={buona} />
         </div>
 
         {/* nota: non bloccare gli asset */}
-        <div style={{ display: "flex", alignItems: "center", gap: 14, background: c.badLane, border: `2px dashed ${c.bad}`, borderRadius: 12, padding: "14px 18px", marginTop: 14 }}>
-          <span style={{ fontSize: 24 }}>🛑</span>
-          <div style={{ fontSize: 15, color: c.ink, lineHeight: 1.35 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 14, background: c.badLane, border: `2px dashed ${c.bad}`, borderRadius: 12, padding: "18px 22px", marginTop: 20 }}>
+          <span style={{ fontSize: 26 }}>🛑</span>
+          <div style={{ fontSize: 16, color: c.ink, lineHeight: 1.4 }}>
             <b>Use case · Homepage · Sales deck · Value prop</b> → in questa fase li <b style={{ color: c.bad }}>SCOPRI</b>. Non bloccarli ora.
           </div>
         </div>
       </div>
 
       {/* ===== SEZIONE 4 — CALLOUT FINALE ===== */}
-      <div style={{ marginTop: "auto", paddingTop: 18 }}>
-        <div style={{ background: c.ink, borderRadius: 16, padding: "20px 24px", color: c.white }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-            <span style={{ fontSize: 30 }}>📞</span>
-            <div style={{ fontSize: 20, fontWeight: 800, lineHeight: 1.25 }}>
+      <div style={{ marginTop: "auto", paddingTop: 26 }}>
+        <div style={{ background: c.ink, borderRadius: 18, padding: "26px 28px", color: c.white }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <span style={{ fontSize: 34 }}>📞</span>
+            <div style={{ fontSize: 23, fontWeight: 800, lineHeight: 1.3 }}>
               Testa <span style={{ color: c.goodBright }}>in call</span>: il feedback è immediato, capisci subito cosa funziona e cosa no.
             </div>
           </div>
-          <div style={{ display: "flex", gap: 10, marginTop: 14, flexWrap: "wrap", paddingLeft: 44 }}>
-            <span style={{ fontSize: 13, color: "#CFCFCF", fontWeight: 600 }}>osserva →</span>
+          <div style={{ display: "flex", gap: 10, marginTop: 18, flexWrap: "wrap", paddingLeft: 50 }}>
+            <span style={{ fontSize: 14, color: "#CFCFCF", fontWeight: 600 }}>osserva →</span>
             {["tono di voce", "espressioni", "parole che usano"].map((x) => (
-              <span key={x} style={{ background: "#3A3A3A", color: c.white, fontSize: 13, fontWeight: 700, padding: "5px 12px", borderRadius: 999 }}>
+              <span key={x} style={{ background: "#3A3A3A", color: c.white, fontSize: 14, fontWeight: 700, padding: "6px 14px", borderRadius: 999 }}>
                 {x}
               </span>
             ))}

@@ -1,6 +1,7 @@
-// Infografica — Pillar "Strategia di Posizionamento": le 5 strategie unificate per maturità di categoria.
-// Domanda: "In che campo di mercato gioco?". Accento BLU (distingue il pillar dall'arancio di Architetture).
-// Spina: spettro di maturità (matura/affollata → categoria che non esiste ancora). Verticale 1080×~1550.
+// Infografica — Pillar "Strategia di Posizionamento": 4 strategie in 2 campi (maturità di categoria).
+// "Che gioco decidi di fare". Accento BLU (distingue il pillar dall'arancio di Architetture).
+// Bucket A CATEGORIA MATURA (① head-to-head, ② big fish) · Bucket B CATEGORIA IMMATURA (③ in crescita,
+// ④ crea categoria). Card compatte + meter (onere educativo, dipendenza tesi). Verticale 1080×~2000.
 
 export default function StrategiaPosizionamento() {
   const c = {
@@ -13,133 +14,177 @@ export default function StrategiaPosizionamento() {
     blue: "#2563EB",
     navy: "#1E3A8A",
     blueLite: "#E4ECFE",
-    // puntini-maturità (coerenti con la barra-gradiente)
-    hot: "#EF4444",
-    warm: "#F59E0B",
-    coolL: "#65D08A",
-    cool: "#16A34A",
+    green: "#16A34A",
+    red: "#EF3B2C",
   };
   const font = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif";
 
-  const mature = [
+  const buckets = [
     {
-      n: "①",
-      dot: c.hot,
-      title: "Domina categoria matura · head-to-head",
-      mech: "accetti i criteri esistenti, vinci su quelli",
-      quando: "Sei leader o quasi, oppure nessun leader chiaro.",
-      caso: "Coca/Pepsi · Samsung/Apple",
+      key: "matura",
+      title: "Categoria matura",
+      desc: "Domanda e budget già esistono · nemico: il leader · onere educativo basso",
+      cards: [
+        {
+          n: "①",
+          title: "Head-to-head vs leader",
+          cos: "Accetti i criteri esistenti e vinci su quelli: giochi meglio alle regole date.",
+          quando: "Sei leader/quasi o nessun leader chiaro, e hai un vantaggio netto su un parametro o nella distribuzione.",
+          mossa: ["Dimostra sui criteri noti dove sei meglio; presidia comparison e battlecard.", "Scegli il fronte dove il leader è debole (o attacchi tutto, ma serve capitale)."],
+          vantaggi: ["Domanda e budget già pronti: dirotti, non crei.", "Zero onere educativo: entri a valle."],
+          rischi: ["Il leader ti schiaccia coi soldi.", "Guerra di logoramento feature/prezzo: vince chi ha più cassa."],
+          edu: 1, tesi: 1,
+          es: "Coca/Pepsi · Samsung/Apple",
+        },
+        {
+          n: "②",
+          title: "Big Fish, Smaller Pond",
+          cos: "Prendi un sotto-segmento servito male dai generalisti e lo servi meglio: «fatto apposta per te», non «faccio di più».",
+          quando: "Il leader non può servirti la nicchia (strutturale > temporaneo) e la nicchia è grande abbastanza per i tuoi obiettivi.",
+          mossa: ["Esplicita il «per chi»; porta prova di fit (casi della nicchia).", "Due modi: A) stessi criteri, fit superiore · B) reframing dei criteri nella nicchia (tesi-dipendente)."],
+          vantaggi: ["Head-to-head reso sostenibile: awareness/budget su scala che reggi.", "Difendibile se è un «non può»."],
+          rischi: ["Nicchia troppo stretta per i tuoi obiettivi.", "Se cresci e ti proteggevi con un «non vuole», il leader entra e ti schiaccia."],
+          edu: 1, tesi: 2, tesiNote: "3/4 in modalità B",
+          es: "DuckDuckGo · CRM per banche/assicurazioni",
+        },
+      ],
     },
     {
-      n: "②",
-      dot: c.hot,
-      title: "Riformula categoria matura",
-      mech: "cambi i criteri di valutazione",
-      quando: "Svolta tech/di modello, leader vulnerabile sui vecchi criteri.",
-      caso: "Tesla (EV: da efficienza a performance) · Apple (smartphone: da email ad app)",
-    },
-  ];
-  const rest = [
-    {
-      n: "③",
-      dot: c.warm,
-      chip: "Matura · nicchia",
-      title: "Big Fish, Smaller Pond",
-      mech: "sotto-segmento mal servito",
-      quando: "Non hai risorse per affrontare il leader e non vuoi, ma trovi una nicchia abbastanza grande per i tuoi obiettivi di business.",
-      caso: "DuckDuckGo (privacy-minded) · CRM per banche/assicurazioni",
-    },
-    {
-      n: "④",
-      dot: c.coolL,
-      chip: "Immatura in crescita",
-      title: "Categoria immatura in crescita",
-      mech: "sposti l'attenzione dal «perché noi vs loro» al «perché il tuo modo attuale non va più bene»",
-      quando: "La categoria esiste ma il tuo buyer non lo sa. Lo agganci spiegando perché il modo in cui lavora oggi è rotto. Non vendi la differenza dentro una categoria: vendi la categoria stessa a chi non la conosce ancora.",
-      caso: "Docusign (e-signature) · Dropbox (file sharing)",
-    },
-    {
-      n: "⑤",
-      dot: c.cool,
-      chip: "Nuova",
-      title: "Crea una nuova categoria",
-      mech: "è un percorso",
-      quando: "Nessuna etichetta esistente aiuta più di quanto danneggi.",
-      caso: "Salesforce (cloud CRM) · Vanta (SOC2)",
+      key: "immatura",
+      title: "Categoria immatura",
+      desc: "Domanda e budget NON esistono · nemico: l'inerzia / il fare a mano · onere educativo alto",
+      cards: [
+        {
+          n: "③",
+          title: "Immatura in crescita",
+          cos: "La categoria esiste ma è nascente per il tuo mercato: la porti dove non è arrivata. Il buyer non sa che esista un software.",
+          quando: "Credi che la categoria possa diventare grande e hai le capabilities per educare (motion educational, marketing+founder-led).",
+          mossa: ["Vinci spiegando il problema e che esiste un modo migliore; non nominare i competitor.", "Scegli la taglia giusta del JTBD."],
+          vantaggi: ["Diventi il riferimento della categoria (fragile).", "Insight in esclusiva: nessuno raccoglie quel feedback."],
+          rischi: ["Onere educativo enorme + ciclo lungo.", "Paghi tu l'educazione, incassa chi arriva dopo."],
+          edu: 3, tesi: 3,
+          es: "Docusign (e-signature) · Dropbox (file sharing)",
+        },
+        {
+          n: "④",
+          title: "Crea una nuova categoria",
+          cos: "La categoria non esiste da nessuna parte: la fondi, comprese le parole con cui il mercato ne parlerà. La più tesi-dipendente.",
+          quando: "Infilarti in una categoria esistente danneggia più di quanto aiuti + tesi fortissima e risorse/pazienza. Test: se puoi descriverti cambiando i criteri di una categoria esistente, stai riformulando (→ è Big Fish).",
+          mossa: ["3 convincimenti in fila: deve esistere → dovrebbe interessarti → il leader sono io.", "Conia nome e criteri; àncora al noto senza farti riassorbire; prova di inevitabilità (trend/dati)."],
+          vantaggi: ["Scrivi tu le regole: il metro con cui ti giudicano.", "Vantaggio di associazione + insight in esclusiva mondiale."],
+          rischi: ["La più dura e lenta: serve capitale e pazienza.", "Il primo che crea raramente è il primo che scala (Slack→Teams); rischio vaghezza."],
+          edu: 4, tesi: 4,
+          es: "Salesforce (cloud CRM) · Vanta (SOC2)",
+        },
+      ],
     },
   ];
 
   return (
-    <div style={{ fontFamily: font, background: c.bg, width: 1080, margin: "0 auto", padding: "40px 44px 38px", color: c.ink, boxSizing: "border-box" }}>
+    <div style={{ fontFamily: font, background: c.bg, width: 1080, margin: "0 auto", padding: "40px 44px 40px", color: c.ink, boxSizing: "border-box" }}>
       {/* MASTHEAD */}
-      <div style={{ borderBottom: `3px solid ${c.navy}`, paddingBottom: 14, marginBottom: 18 }}>
+      <div style={{ borderBottom: `3px solid ${c.navy}`, paddingBottom: 14, marginBottom: 20 }}>
         <h1 style={{ fontSize: 42, fontWeight: 900, color: c.navy, margin: 0, lineHeight: 1.05, whiteSpace: "nowrap" }}>
           Strategia di <span style={{ color: c.blue }}>Posizionamento</span>
         </h1>
         <p style={{ fontSize: 18, color: c.body, margin: "9px 0 0", fontWeight: 700 }}>
-          Che gioco decidi di fare: <span style={{ color: c.blue }}>5 strategie di posizionamento</span>
+          Che gioco decidi di fare: <span style={{ color: c.blue }}>4 strategie in 2 campi</span>
         </p>
       </div>
 
-      {/* BARRA-LEGENDA MATURITÀ */}
-      <div style={{ marginBottom: 18 }}>
-        <div style={{ height: 14, borderRadius: 999, background: `linear-gradient(90deg, ${c.hot} 0%, ${c.warm} 45%, ${c.coolL} 72%, ${c.cool} 100%)` }} />
-        <div style={{ display: "flex", justifyContent: "space-between", marginTop: 6, fontSize: 12.5, fontWeight: 800, color: c.muted }}>
-          <span>◄ Categoria matura, affollata</span>
-          <span>Categoria che non esiste ancora ►</span>
+      {buckets.map((b) => (
+        <div key={b.key} style={{ marginBottom: 22 }}>
+          {/* header bucket */}
+          <div style={{ background: c.navy, color: c.white, borderRadius: 12, padding: "12px 18px", marginBottom: 14 }}>
+            <div style={{ fontSize: 20, fontWeight: 900, letterSpacing: 0.4 }}>{b.title}</div>
+            <div style={{ fontSize: 13, color: c.blueLite, marginTop: 3, fontWeight: 600 }}>{b.desc}</div>
+          </div>
+          {/* 2 card */}
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
+            {b.cards.map((s) => <StrategyCard key={s.n} c={c} s={s} />)}
+          </div>
         </div>
-      </div>
-
-      {/* ZONA MATURA — 1 + 2 affiancate */}
-      <ZoneLabel c={c} dot={c.hot} text="CATEGORIA MATURA — stessa maturità, due mosse opposte" />
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, marginBottom: 14 }}>
-        {mature.map((s) => <StrategyCard key={s.n} c={c} s={s} compact />)}
-      </div>
-
-      {/* 3 · 4 · 5 in sequenza */}
-      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-        {rest.map((s) => <StrategyCard key={s.n} c={c} s={s} />)}
-      </div>
+      ))}
     </div>
   );
 }
 
 /* ---------- componenti ---------- */
 
-function ZoneLabel({ c, dot, text }) {
+function StrategyCard({ c, s }) {
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
-      <span style={{ width: 11, height: 11, borderRadius: "50%", background: dot, display: "inline-block" }} />
-      <span style={{ fontSize: 12.5, fontWeight: 900, letterSpacing: 0.6, color: c.ink, textTransform: "uppercase" }}>{text}</span>
+    <div style={{ background: c.white, border: `1px solid ${c.line}`, borderRadius: 16, padding: "16px 16px 14px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", display: "flex", flexDirection: "column", gap: 9 }}>
+      {/* header */}
+      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+        <span style={{ width: 30, height: 30, borderRadius: 8, background: c.blue, color: c.white, fontSize: 16, fontWeight: 900, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{s.n}</span>
+        <span style={{ fontSize: 17, fontWeight: 900, color: c.navy, lineHeight: 1.1 }}>{s.title}</span>
+      </div>
+
+      <div style={{ fontSize: 13, color: c.ink, lineHeight: 1.35 }}>{s.cos}</div>
+
+      <Field c={c} label="Quando è la tua">{s.quando}</Field>
+
+      <div>
+        <FieldLabel c={c}>La mossa</FieldLabel>
+        {s.mossa.map((m, i) => <Bullet key={i} c={c} color={c.blue} text={m} />)}
+      </div>
+
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
+        <div>
+          <FieldLabel c={c} color={c.green}>Vantaggi</FieldLabel>
+          {s.vantaggi.map((v, i) => <Bullet key={i} c={c} color={c.green} mark="✓" text={v} />)}
+        </div>
+        <div>
+          <FieldLabel c={c} color={c.red}>Rischi</FieldLabel>
+          {s.rischi.map((r, i) => <Bullet key={i} c={c} color={c.red} mark="✕" text={r} />)}
+        </div>
+      </div>
+
+      {/* meter */}
+      <div style={{ display: "flex", gap: 16, marginTop: 2 }}>
+        <Meter c={c} label="Onere educativo" level={s.edu} />
+        <Meter c={c} label="Dipendenza tesi" level={s.tesi} note={s.tesiNote} />
+      </div>
+
+      <div style={{ fontSize: 12, color: c.muted, fontWeight: 600, marginTop: 2, borderTop: `1px solid ${c.line}`, paddingTop: 8 }}>
+        Es. {s.es}
+      </div>
     </div>
   );
 }
 
-function StrategyCard({ c, s, compact }) {
+function FieldLabel({ c, color, children }) {
+  return <div style={{ fontSize: 10.5, fontWeight: 900, letterSpacing: 0.6, textTransform: "uppercase", color: color || c.muted, marginBottom: 3 }}>{children}</div>;
+}
+
+function Field({ c, label, children }) {
   return (
-    <div style={{ background: c.white, border: `1px solid ${c.line}`, borderRadius: 14, padding: "14px 16px", boxShadow: "0 2px 6px rgba(0,0,0,0.05)", display: "flex", flexDirection: "column", height: "100%", boxSizing: "border-box" }}>
-      {/* header */}
-      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-        <span style={{ width: 30, height: 30, borderRadius: 8, background: c.navy, color: c.white, fontSize: 16, fontWeight: 900, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>{s.n}</span>
-        <span style={{ width: 12, height: 12, borderRadius: "50%", background: s.dot, flexShrink: 0 }} />
-        <span style={{ fontSize: compact ? 16 : 18, fontWeight: 900, color: c.ink, lineHeight: 1.1 }}>{s.title}</span>
-        {s.badge && (
-          <span style={{ marginLeft: "auto", background: c.blueLite, color: c.blue, fontSize: 10.5, fontWeight: 900, padding: "3px 9px", borderRadius: 999, border: `1px solid ${c.blue}`, whiteSpace: "nowrap" }}>{s.badge}</span>
-        )}
+    <div>
+      <FieldLabel c={c} color={c.blue}>{label}</FieldLabel>
+      <div style={{ fontSize: 12.5, color: c.body, lineHeight: 1.32 }}>{children}</div>
+    </div>
+  );
+}
+
+function Bullet({ c, color, mark, text }) {
+  return (
+    <div style={{ display: "flex", gap: 6, alignItems: "flex-start", marginBottom: 3 }}>
+      <span style={{ color, fontWeight: 900, fontSize: 12, lineHeight: 1.3, flexShrink: 0 }}>{mark || "•"}</span>
+      <span style={{ fontSize: 12, color: c.body, lineHeight: 1.3 }}>{text}</span>
+    </div>
+  );
+}
+
+function Meter({ c, label, level, note }) {
+  return (
+    <div style={{ flex: 1 }}>
+      <div style={{ fontSize: 10, fontWeight: 800, color: c.muted, textTransform: "uppercase", letterSpacing: 0.4, marginBottom: 3 }}>
+        {label}{note ? <span style={{ textTransform: "none", fontWeight: 600, color: c.blue }}> · {note}</span> : ""}
       </div>
-
-      <div style={{ fontSize: 13, fontStyle: "italic", color: c.blue, fontWeight: 700, margin: "7px 0 0", lineHeight: 1.3 }}>{s.mech}</div>
-
-      {/* quando / caso */}
-      <div style={{ display: "grid", gridTemplateColumns: compact ? "1fr" : "1fr 1.1fr", gap: compact ? 6 : 14, marginTop: 10 }}>
-        <div>
-          <div style={{ fontSize: 10.5, fontWeight: 900, color: c.muted, letterSpacing: 0.6, textTransform: "uppercase" }}>Quando</div>
-          <div style={{ fontSize: 13, color: c.body, marginTop: 2, lineHeight: 1.32 }}>{s.quando}</div>
-        </div>
-        <div>
-          <div style={{ fontSize: 10.5, fontWeight: 900, color: c.muted, letterSpacing: 0.6, textTransform: "uppercase" }}>Caso</div>
-          <div style={{ fontSize: 13, color: c.ink, marginTop: 2, lineHeight: 1.32, fontWeight: 600 }}>{s.caso}</div>
-        </div>
+      <div style={{ display: "flex", gap: 3 }}>
+        {[1, 2, 3, 4].map((i) => (
+          <span key={i} style={{ flex: 1, height: 7, borderRadius: 3, background: i <= level ? c.blue : c.blueLite }} />
+        ))}
       </div>
     </div>
   );

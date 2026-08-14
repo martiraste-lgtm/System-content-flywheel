@@ -128,7 +128,7 @@ Quando pubblico un pezzo e mi chiedi di registrarlo:
 
 Quando ti do gli appunti di un engagement e dico "estrai gli insight":
 
-1. **Anonimizza all'ingresso**: rimuovi nome persona e brand; tieni ruolo, settore, scala. (Repo privato, ma l'anonimizzazione si fa comunque.)
+1. **Anonimizza all'ingresso**: rimuovi nome persona e brand; tieni ruolo, settore, scala. (**Repo pubblico: l'anonimizzazione è obbligatoria, non opzionale.**)
 2. Crea/aggiorna l'entry in `knowledge/client-intelligence/insights/[slug].md` col template in `client-intelligence/INDEX.md`
 3. Proponi 0-N voci per `knowledge/client-intelligence/lexicon.md` (founder-speak vs vendor-speak)
 4. Se conferma/contraddice un pattern → aggiorna `client-intelligence/patterns.md`; se tocca un'ipotesi → `hypotheses/active.md` (evidenza ora da fonte MIA, non dagli autori)
@@ -171,6 +171,11 @@ Principi non negoziabili:
 ## Sync cross-surface
 
 Questo repo è condiviso tra Claude Code, Cowork, e Web (via GitHub).
+
+**Il repo è PUBBLICO su GitHub.** È una scelta: fa parte del portfolio. Tutto ciò che committi
+qui è leggibile da chiunque. Vedi la "Regola di pubblicazione" nel CLAUDE.md globale per cosa
+non deve mai entrare (candidature, materiale cliente non anonimizzato, importi, bozze da non
+anticipare).
 
 - **Claude Code**: analisi batch, script, update knowledge, commit
 - **Cowork**: bozze, iterazione, brainstorming

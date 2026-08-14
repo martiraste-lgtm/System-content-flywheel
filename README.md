@@ -147,7 +147,7 @@ Sei tecniche confermate con evidenza empirica da 3+ autori:
 ### Clone e apertura
 
 ```bash
-git clone https://github.com/martiraste-lgtm/System-content-flywheel.git
+git clone https://github.com/stefanomartiradonna/System-content-flywheel.git
 cd System-content-flywheel
 claude  # apre Claude Code nella directory del progetto
 ```

@@ -120,7 +120,7 @@ GitHub è il punto di sincronizzazione. Prima di ogni sessione in Cowork o Web: 
 | **Anthony Pierri** | Positioning B2B, ironia come registro editoriale | ✅ apr 2026 |
 
 Dall'analisi cross-autore sono emersi 6 pattern ad alta evidenza (★) e 2 false beliefs documentate sulle metriche di engagement.
-
+Vengono analizzati i nuovi contenuti degli autori in automatico da un Agente preposto ogni 15gg che sintetizza gli insight più rilevanti, in base ai like e commenti che hanno ricevuto i post di quel periodo e trasformati in argomenti da sviluppare in un doc privato. 
 ---
 
 ## Tecniche di scrittura documentate

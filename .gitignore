@@ -2,3 +2,7 @@
 Thumbs.db
 *.env
 candidature/
+
+# Config locale Claude Code (permessi per macchina, non va condivisa)
+.claude/settings.local.json
+*.doctor-backup

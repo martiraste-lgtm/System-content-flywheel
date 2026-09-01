@@ -183,11 +183,3 @@ anticipare).
 
 Regola: fai sempre `git pull` prima di iniziare una sessione se stai usando Cowork o Web.
 Fai sempre `git push` dopo aver aggiornato la knowledge base.
-
----
-
-## Stato del sistema
-
-- **Avviato**: aprile 2026
-- **Versione**: 0.1 (MVP)
-- **Prossimo step**: popolare `knowledge/references/` con i primi autori analizzati
